@@ -1,0 +1,102 @@
+{
+  "lastUpdated": "2024-01-15T10:00:00Z",
+  "sources": [
+    {
+      "url": "https://dtsgb.gog.pk/",
+      "title": "DTS Gilgit-Baltistan Official Website",
+      "scrapedAt": "2024-01-15T10:00:00Z",
+      "content": {
+        "about": "Directorate of Tourism Services (DTS) Gilgit-Baltistan is the official government department responsible for promoting and managing tourism in the region.",
+        "services": [
+          "Tourist Information and Guidance",
+          "Travel Permits and Documentation",
+          "Tourism Infrastructure Development",
+          "Tourist Safety and Security",
+          "Adventure Tourism Facilitation",
+          "Cultural Heritage Preservation"
+        ],
+        "destinations": [
+          {
+            "name": "Skardu",
+            "description": "Gateway to K2 and Baltoro Glacier, famous for mountaineering"
+          },
+          {
+            "name": "Hunza Valley",
+            "description": "Beautiful valley known for Karimabad and stunning mountain views"
+          },
+          {
+            "name": "Fairy Meadows",
+            "description": "Base camp for Nanga Parbat, popular trekking destination"
+          },
+          {
+            "name": "Deosai National Park",
+            "description": "High altitude plateau, famous for wildlife and flowers"
+          }
+        ],
+        "contact": {
+          "phone": "+92-5811-920001",
+          "email": "info@dtsgb.gog.pk",
+          "helpline": "1422",
+          "address": "Directorate of Tourism Services, Gilgit-Baltistan"
+        }
+      }
+    },
+    {
+      "url": "https://app.dtsgb.gog.pk/auth/login",
+      "title": "DTS Login Portal",
+      "scrapedAt": "2024-01-15T10:00:00Z",
+      "content": {
+        "loginUrl": "https://app.dtsgb.gog.pk/auth/login",
+        "accountTypes": ["Government Officials", "Tourism Operators", "Registered Businesses", "Authorized Personnel"],
+        "loginSteps": [
+          "Visit https://app.dtsgb.gog.pk/auth/login",
+          "Enter your username/email",
+          "Enter your password",
+          "Click Sign In button"
+        ],
+        "commonIssues": [
+          {
+            "issue": "Forgot Password",
+            "solution": "Click 'Forgot Password' link on login page or contact IT support"
+          },
+          {
+            "issue": "Account Locked",
+            "solution": "Contact system administrator or call +92-5811-920001"
+          },
+          {
+            "issue": "Browser Issues",
+            "solution": "Clear cache, try different browser, enable JavaScript"
+          }
+        ],
+        "accountCreation": {
+          "eligibility": "Only authorized personnel and registered tourism operators",
+          "requirements": [
+            "Valid CNIC",
+            "Business License (for operators)",
+            "Official recommendation letter",
+            "Contact DTS office for approval"
+          ],
+          "process": "Submit documents to DTS office for verification and approval"
+        }
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is DTS?",
+      "answer": "DTS (Directorate of Tourism Services) is the official government department for tourism in Gilgit-Baltistan, Pakistan."
+    },
+    {
+      "question": "How do I login to DTS system?",
+      "answer": "Visit https://app.dtsgb.gog.pk/auth/login, enter your credentials, and click Sign In. Only authorized personnel can access the system."
+    },
+    {
+      "question": "Can I create a DTS account?",
+      "answer": "Account creation is restricted to authorized government personnel and registered tourism operators. Contact DTS office with required documents."
+    },
+    {
+      "question": "What tourism services does DTS provide?",
+      "answer": "DTS provides tourist information, travel permits, safety coordination, infrastructure development, and adventure tourism facilitation."
+    }
+  ]
+}
