@@ -2,7 +2,7 @@ import { generateText } from "ai"
 import { openai } from "@ai-sdk/openai"
 import { getKnowledgeBaseFromJSON } from "../../../lib/knowledge-base"
 
-export const maxDuration = 30
+export const maxDuration = 60
 
 export async function POST(req: Request) {
   try {
@@ -16,11 +16,18 @@ export async function POST(req: Request) {
       throw new Error("OpenAI API key is not configured")
     }
 
-    // Load comprehensive knowledge base from JSON with fallback
+    // Load comprehensive knowledge base from JSON with fallback and timeout
     let knowledgeBase: string
     try {
       console.log("Loading comprehensive knowledge base from JSON...")
-      knowledgeBase = await getKnowledgeBaseFromJSON()
+      
+      // Add timeout to knowledge base loading (20 seconds max)
+      const kbPromise = getKnowledgeBaseFromJSON()
+      const timeoutPromise = new Promise((_, reject) => 
+        setTimeout(() => reject(new Error('Knowledge base loading timeout')), 20000)
+      )
+      
+      knowledgeBase = await Promise.race([kbPromise, timeoutPromise]) as string
       console.log("Successfully loaded knowledge base")
     } catch (error) {
       console.error("Failed to load knowledge base from JSON, using fallback:", error)
@@ -186,15 +193,22 @@ When possible, phrase responses like:
 
 Remember: You are TSA - a trusted, professional, and helpful digital guide for DTS Gilgit-Baltistan users. Always provide comprehensive, helpful responses based on the knowledge base.`
 
-    const result = await generateText({
+    // Generate response with timeout protection
+    const generatePromise = generateText({
       model: openai("gpt-4o"),
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: message },
       ],
-      temperature: 0.3,
-      maxTokens: 1000,
+      temperature: 0.2,
+      maxTokens: 800,
     })
+    
+    const aiTimeoutPromise = new Promise((_, reject) => 
+      setTimeout(() => reject(new Error('OpenAI API timeout')), 25000)
+    )
+    
+    const result = await Promise.race([generatePromise, aiTimeoutPromise]) as any
 
     console.log("Generated response:", result.text)
 

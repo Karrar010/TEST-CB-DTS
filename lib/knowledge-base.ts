@@ -58,29 +58,30 @@ Website: https://dtsgb.gog.pk/
 
 export async function getKnowledgeBaseFromJSON(): Promise<string> {
   try {
-    // Load existing knowledge base
+    // Load existing knowledge base with timeout protection
+    console.log("Attempting to load knowledge base...")
     let knowledgeBase = await loadKnowledgeBase()
 
-    // Intelligent update logic based on content freshness
-    const shouldUpdate = await shouldUpdateKnowledgeBase(knowledgeBase)
-
-    if (shouldUpdate.needsUpdate) {
-      console.log(`Updating knowledge base: ${shouldUpdate.reason}`)
-      
-      // Perform selective or full update based on what's needed
-      if (shouldUpdate.selectiveUpdate && knowledgeBase) {
-        await updateSelectiveContent(knowledgeBase, shouldUpdate.outdatedSections)
-      } else {
-        await updateKnowledgeBase()
-      }
-      
-      knowledgeBase = await loadKnowledgeBase()
-    } else {
-      console.log("Using cached knowledge base")
+    if (!knowledgeBase) {
+      console.log("No knowledge base found, using fallback")
+      return getFallbackKnowledgeBase()
     }
 
-    if (!knowledgeBase) {
-      throw new Error("Failed to load knowledge base")
+    // Skip update logic during high-traffic periods to prevent timeouts
+    // Only check for updates if the knowledge base is very old (24+ hours)
+    const now = Date.now()
+    const lastUpdated = new Date(knowledgeBase.lastUpdated).getTime()
+    const timeSinceUpdate = now - lastUpdated
+    const FORCE_UPDATE_THRESHOLD = 24 * 60 * 60 * 1000 // 24 hours
+
+    if (timeSinceUpdate > FORCE_UPDATE_THRESHOLD) {
+      console.log("Knowledge base is very old, scheduling background update")
+      // Don't await this - let it update in background
+      updateKnowledgeBaseInBackground().catch(err => 
+        console.error("Background update failed:", err)
+      )
+    } else {
+      console.log("Using cached knowledge base (less than 24h old)")
     }
 
     // Format knowledge base for AI
@@ -89,6 +90,17 @@ export async function getKnowledgeBaseFromJSON(): Promise<string> {
   } catch (error) {
     console.error("Error getting knowledge base:", error)
     return getFallbackKnowledgeBase()
+  }
+}
+
+// Background update function that doesn't block the main response
+async function updateKnowledgeBaseInBackground(): Promise<void> {
+  try {
+    console.log("Starting background knowledge base update...")
+    await updateKnowledgeBase()
+    console.log("Background update completed")
+  } catch (error) {
+    console.error("Background update failed:", error)
   }
 }
 
