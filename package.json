@@ -12,7 +12,13 @@
     "update:scheduled": "npx tsx scripts/scheduled-updater.ts",
     "health:check": "npx tsx scripts/health-check.ts",
     "kb:refresh": "npx tsx scripts/run-scraper.ts",
-    "kb:monitor": "npx tsx scripts/health-check.ts"
+    "kb:monitor": "npx tsx scripts/health-check.ts",
+    "docker:build": "docker build -t dts-chatbot .",
+    "docker:run": "docker run -p 3000:3000 --env-file .env dts-chatbot",
+    "docker:dev": "docker-compose up -d",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d",
+    "docker:stop": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.0",

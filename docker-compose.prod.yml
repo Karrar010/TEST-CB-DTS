@@ -1,0 +1,104 @@
+# Production Docker Compose configuration
+version: '3.8'
+
+services:
+  dts-chatbot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:3000"
+    environment:
+      - NODE_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SERVICE_TYPE=app
+    volumes:
+      - knowledge_data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - dts-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dts-chatbot.rule=Host(`your-domain.com`)"
+      - "traefik.http.routers.dts-chatbot.tls=true"
+      - "traefik.http.routers.dts-chatbot.tls.certresolver=letsencrypt"
+
+  dts-updater:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SERVICE_TYPE=updater
+      - UPDATE_INTERVAL=30
+    volumes:
+      - knowledge_data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    depends_on:
+      dts-chatbot:
+        condition: service_healthy
+    networks:
+      - dts-network
+    command: ["sh", "/app/docker-scripts/entrypoint.sh"]
+
+  dts-monitor:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+      - SERVICE_TYPE=monitor
+      - MONITOR_INTERVAL=60
+    volumes:
+      - knowledge_data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    depends_on:
+      dts-chatbot:
+        condition: service_healthy
+    networks:
+      - dts-network
+    command: ["sh", "/app/docker-scripts/entrypoint.sh"]
+
+  # Optional: Reverse proxy with SSL
+  traefik:
+    image: traefik:v2.10
+    command:
+      - "--api.dashboard=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge=true"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.letsencrypt.acme.email=your-email@domain.com"
+      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"  # Traefik dashboard
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - letsencrypt:/letsencrypt
+    networks:
+      - dts-network
+    restart: unless-stopped
+
+volumes:
+  knowledge_data:
+    driver: local
+  letsencrypt:
+    driver: local
+
+networks:
+  dts-network:
+    driver: bridge

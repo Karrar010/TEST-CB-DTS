@@ -1,0 +1,84 @@
+version: '3.8'
+
+services:
+  dts-chatbot:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      # Persist knowledge base data
+      - knowledge_data:/app/data
+      # Mount logs directory
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "npm", "run", "health:check"]
+      interval: 5m
+      timeout: 30s
+      retries: 3
+      start_period: 30s
+    labels:
+      - "com.docker.compose.service=dts-chatbot"
+      - "description=DTS Gilgit-Baltistan Tourism Chatbot"
+
+  # Optional: Scheduled updater as separate service
+  dts-updater:
+    build: .
+    environment:
+      - NODE_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      # Share knowledge base data with main app
+      - knowledge_data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    command: >
+      sh -c "
+        while true; do
+          echo '🕒 Running scheduled update...'
+          npm run update:scheduled
+          echo '⏰ Sleeping for 30 minutes...'
+          sleep 1800
+        done
+      "
+    depends_on:
+      - dts-chatbot
+    labels:
+      - "com.docker.compose.service=dts-updater"
+      - "description=Automated knowledge base updater"
+
+  # Optional: Health monitoring service
+  dts-monitor:
+    build: .
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - knowledge_data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped
+    command: >
+      sh -c "
+        while true; do
+          echo '🏥 Running health check...'
+          if ! npm run health:check; then
+            echo '⚠️ Health check failed - triggering update...'
+            npm run kb:refresh
+          fi
+          echo '😴 Sleeping for 1 hour...'
+          sleep 3600
+        done
+      "
+    depends_on:
+      - dts-chatbot
+    labels:
+      - "com.docker.compose.service=dts-monitor"
+      - "description=Health monitoring and auto-recovery"
+
+volumes:
+  knowledge_data:
+    driver: local
+    labels:
+      - "description=Persistent storage for knowledge base data"

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-06T07:50:03.462Z",
+  "lastUpdated": "2025-08-06T08:57:11.753Z",
   "baseUrl": "https://dtsgb.gog.pk/",
   "sources": [
     {
@@ -1300,7 +1300,7 @@
     {
       "url": "https://dtsgb.gog.pk/mountaineering/historical-summits",
       "title": "Historical Summits - Mountaineering History of Gilgit-Baltistan",
-      "scrapedAt": "2025-08-06T07:50:02.460Z",
+      "scrapedAt": "2025-08-06T08:57:10.746Z",
       "content": {
         "type": "mountaineering",
         "section": "Historical Summits",
@@ -1368,7 +1368,7 @@
     {
       "url": "https://dtsgb.gog.pk/mountaineering/upcoming-expeditions",
       "title": "Upcoming Expeditions - Gilgit-Baltistan Mountaineering",
-      "scrapedAt": "2025-08-06T07:50:01.085Z",
+      "scrapedAt": "2025-08-06T08:57:09.185Z",
       "content": {
         "type": "mountaineering",
         "section": "Upcoming Expeditions",
@@ -2655,7 +2655,7 @@
     {
       "url": "https://dtsgb.gog.pk/news",
       "title": "News",
-      "scrapedAt": "2025-08-06T07:49:58.411Z",
+      "scrapedAt": "2025-08-06T08:57:06.281Z",
       "content": {
         "type": "news",
         "section": "News & Advisories",
@@ -2705,7 +2705,7 @@
     {
       "url": "https://dtsgb.gog.pk/events",
       "title": "Events & Travel Trade",
-      "scrapedAt": "2025-08-06T07:49:59.721Z",
+      "scrapedAt": "2025-08-06T08:57:07.728Z",
       "content": {
         "type": "events",
         "section": "Events & Travel Trade",
