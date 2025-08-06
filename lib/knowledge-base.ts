@@ -14,8 +14,15 @@ interface KnowledgeBase {
   }>
 }
 
-// Cache duration: 1 hour
-const CACHE_DURATION = 60 * 60 * 1000
+// Cache durations for different content types
+const CACHE_DURATIONS = {
+  // Dynamic content (news, events) - update more frequently
+  DYNAMIC: 30 * 60 * 1000,      // 30 minutes
+  // Static content (regulations, licensing) - update less frequently  
+  STATIC: 4 * 60 * 60 * 1000,   // 4 hours
+  // Default fallback
+  DEFAULT: 60 * 60 * 1000       // 1 hour
+}
 
 // Enhanced fallback knowledge base
 const FALLBACK_KNOWLEDGE = `
@@ -54,12 +61,19 @@ export async function getKnowledgeBaseFromJSON(): Promise<string> {
     // Load existing knowledge base
     let knowledgeBase = await loadKnowledgeBase()
 
-    // Check if we need to update (if older than 1 hour or doesn't exist)
-    const shouldUpdate = !knowledgeBase || Date.now() - new Date(knowledgeBase.lastUpdated).getTime() > CACHE_DURATION
+    // Intelligent update logic based on content freshness
+    const shouldUpdate = await shouldUpdateKnowledgeBase(knowledgeBase)
 
-    if (shouldUpdate) {
-      console.log("Updating knowledge base from websites...")
-      await updateKnowledgeBase()
+    if (shouldUpdate.needsUpdate) {
+      console.log(`Updating knowledge base: ${shouldUpdate.reason}`)
+      
+      // Perform selective or full update based on what's needed
+      if (shouldUpdate.selectiveUpdate && knowledgeBase) {
+        await updateSelectiveContent(knowledgeBase, shouldUpdate.outdatedSections)
+      } else {
+        await updateKnowledgeBase()
+      }
+      
       knowledgeBase = await loadKnowledgeBase()
     } else {
       console.log("Using cached knowledge base")
@@ -621,6 +635,146 @@ Address: ${content.contact.address}
   }
   
   return formatted
+}
+
+// Intelligent update detection based on content type and age
+async function shouldUpdateKnowledgeBase(knowledgeBase: any): Promise<{
+  needsUpdate: boolean
+  reason: string
+  selectiveUpdate: boolean
+  outdatedSections: string[]
+}> {
+  if (!knowledgeBase) {
+    return {
+      needsUpdate: true,
+      reason: "No existing knowledge base found",
+      selectiveUpdate: false,
+      outdatedSections: []
+    }
+  }
+
+  const now = Date.now()
+  const lastUpdated = new Date(knowledgeBase.lastUpdated).getTime()
+  const timeSinceUpdate = now - lastUpdated
+
+  // Define dynamic sections that need frequent updates
+  const dynamicSections = [
+    "News & Advisories",
+    "Events & Travel Trade",
+    "Upcoming Expeditions",
+    "Historical Summits"
+  ]
+
+  // Check if any dynamic content is too old
+  const outdatedDynamicSections = []
+  
+  if (knowledgeBase.sources) {
+    for (const source of knowledgeBase.sources) {
+      const sourceAge = now - new Date(source.scrapedAt).getTime()
+      
+      // Check if this is dynamic content that's outdated
+      if (dynamicSections.includes(source.section) && sourceAge > CACHE_DURATIONS.DYNAMIC) {
+        outdatedDynamicSections.push(source.section)
+      }
+    }
+  }
+
+  // Force update if dynamic content is outdated
+  if (outdatedDynamicSections.length > 0) {
+    return {
+      needsUpdate: true,
+      reason: `Dynamic content outdated: ${outdatedDynamicSections.join(', ')}`,
+      selectiveUpdate: true,
+      outdatedSections: outdatedDynamicSections
+    }
+  }
+
+  // Full update if everything is too old
+  if (timeSinceUpdate > CACHE_DURATIONS.STATIC) {
+    return {
+      needsUpdate: true,
+      reason: "Full knowledge base is outdated",
+      selectiveUpdate: false,
+      outdatedSections: []
+    }
+  }
+
+  // Check if critical sections are missing
+  const requiredSections = ["Tourism Services", "Licensing", "Mountain Adventures", "Visa Information"]
+  const existingSections = knowledgeBase.sources?.map((s: any) => s.section) || []
+  const missingSections = requiredSections.filter(section => !existingSections.includes(section))
+
+  if (missingSections.length > 0) {
+    return {
+      needsUpdate: true,
+      reason: `Missing critical sections: ${missingSections.join(', ')}`,
+      selectiveUpdate: false,
+      outdatedSections: []
+    }
+  }
+
+  return {
+    needsUpdate: false,
+    reason: "Knowledge base is current",
+    selectiveUpdate: false,
+    outdatedSections: []
+  }
+}
+
+// Selective update function for dynamic content only
+async function updateSelectiveContent(knowledgeBase: any, outdatedSections: string[]): Promise<void> {
+  console.log(`🔄 Performing selective update for: ${outdatedSections.join(', ')}`)
+  
+  try {
+    const { scrapeWebsiteToJSON } = await import("./scraper")
+    
+    // URLs for dynamic content
+    const dynamicUrls = [
+      { url: "https://dtsgb.gog.pk/news", section: "News & Advisories" },
+      { url: "https://dtsgb.gog.pk/events", section: "Events & Travel Trade" },
+      { url: "https://dtsgb.gog.pk/mountaineering/upcoming-expeditions", section: "Upcoming Expeditions" },
+      { url: "https://dtsgb.gog.pk/mountaineering/historical-summits", section: "Historical Summits" }
+    ]
+
+    // Only update the outdated sections
+    const urlsToUpdate = dynamicUrls.filter(item => outdatedSections.includes(item.section))
+    
+    for (const { url, section } of urlsToUpdate) {
+      console.log(`📡 Updating ${section}...`)
+      
+      const newData = await scrapeWebsiteToJSON(url, section)
+      if (newData) {
+        // Replace the old data for this section
+        const existingIndex = knowledgeBase.sources.findIndex((s: any) => s.section === section)
+        if (existingIndex >= 0) {
+          knowledgeBase.sources[existingIndex] = newData
+        } else {
+          knowledgeBase.sources.push(newData)
+        }
+        console.log(`✅ Updated ${section}`)
+      }
+      
+      // Small delay between requests
+      await new Promise(resolve => setTimeout(resolve, 1000))
+    }
+
+    // Update the last updated timestamp
+    knowledgeBase.lastUpdated = new Date().toISOString()
+
+    // Save the updated knowledge base
+    const fs = await import("fs/promises")
+    const path = await import("path")
+    const filePath = path.join(process.cwd(), "data", "knowledge-base.json")
+    await fs.writeFile(filePath, JSON.stringify(knowledgeBase, null, 2))
+    
+    console.log(`✅ Selective update completed for ${outdatedSections.length} sections`)
+    
+  } catch (error) {
+    console.error("❌ Error during selective update:", error)
+    // Fall back to full update if selective update fails
+    const { updateKnowledgeBase } = await import("./scraper")
+    await updateKnowledgeBase()
+  }
 }
 
 function getFallbackKnowledgeBase(): string {

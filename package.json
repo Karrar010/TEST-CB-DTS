@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrape": "node scripts/scrape-dts.js"
+    "scrape": "node scripts/scrape-dts.js",
+    "scrape:full": "npx tsx scripts/run-scraper.ts",
+    "update:scheduled": "npx tsx scripts/scheduled-updater.ts",
+    "health:check": "npx tsx scripts/health-check.ts",
+    "kb:refresh": "npx tsx scripts/run-scraper.ts",
+    "kb:monitor": "npx tsx scripts/health-check.ts"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.0",

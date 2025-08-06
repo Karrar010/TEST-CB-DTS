@@ -789,14 +789,14 @@ export async function scrapeAllDTSWebsites(): Promise<ScrapedData[]> {
   })
   
   console.log(`Found ${allUrls.length} URLs to scrape`)
-  
-  const scrapedData: ScrapedData[] = []
+
+    const scrapedData: ScrapedData[] = []
   const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
   
   for (let i = 0; i < allUrls.length; i++) {
     const {url, section, parentSection} = allUrls[i]
     console.log(`\nScraping ${i + 1}/${allUrls.length}: ${url}`)
-    
+
     try {
       const data = await scrapeWebsiteToJSON(url, section, parentSection)
       if (data) {
