@@ -1,102 +1,2944 @@
 {
-  "lastUpdated": "2024-01-15T10:00:00Z",
+  "lastUpdated": "2025-08-06T07:19:44.088Z",
+  "baseUrl": "https://dtsgb.gog.pk/",
   "sources": [
     {
       "url": "https://dtsgb.gog.pk/",
-      "title": "DTS Gilgit-Baltistan Official Website",
-      "scrapedAt": "2024-01-15T10:00:00Z",
+      "title": "Directorate of Tourist Services Gilgit Baltistan | DTS",
+      "scrapedAt": "2025-08-06T07:18:31.997Z",
       "content": {
-        "about": "Directorate of Tourism Services (DTS) Gilgit-Baltistan is the official government department responsible for promoting and managing tourism in the region.",
-        "services": [
-          "Tourist Information and Guidance",
-          "Travel Permits and Documentation",
-          "Tourism Infrastructure Development",
-          "Tourist Safety and Security",
-          "Adventure Tourism Facilitation",
-          "Cultural Heritage Preservation"
+        "type": "general",
+        "section": "Main Website",
+        "url": "https://dtsgb.gog.pk/",
+        "headings": [
+          "Directorate of Tourist Services",
+          "Our Services",
+          "Licensing",
+          "Legislations",
+          "Grading",
+          "Service Providers",
+          "Fees",
+          "Downloads",
+          "Mountaineering Services",
+          "Historical Summits",
+          "Expedition Fees",
+          "Successful Climbers",
+          "Upcoming Expeditions",
+          "Quick License Application",
+          "Tour Operator License",
+          "Hotel/Camping License",
+          "Tour Guide License",
+          "Mountain Adventures",
+          "Latest News",
+          "Important Advisory for Mountaineers and Tour Operators: Insurance Protocols and Permit Regulations in Gilgit-Baltistan",
+          "The Shandur Polo Festival 2025 concluded with a thrilling final match as Team Chitral edged out Gilgit-Baltistan",
+          "Chief Secretary GB Hosts Ceremony to Honour Pakistan’s High-Altitude Heroes - Sirbaz Khan, Wajidullah Nagri, and Sajid Ali Sadpara",
+          "Shandur Polo Festival 2025 Scheduled for June 20-22 at world's Highest Polo Ground",
+          "Babusar Top Reopens for Tourists and Traffic After Six-Month Seasonal Closure",
+          "Tourist Visa Information",
+          "Check Visa Eligibility",
+          "Pakistan Tourist Visa Visit Pakistan with Ease",
+          "Eligibility",
+          "Processing",
+          "Duration",
+          "Documents",
+          "Travel Trade Upcoming Events",
+          "Mountain Tourism Summit, France 2025",
+          "Arabian Travel Market, UAE 2025",
+          "Pakistan Travel Mart, Karachi 2025",
+          "Stay Connected",
+          "@gilgitbaltistantourism",
+          "Gilgit Baltistan Tourism Department",
+          "Explore Services",
+          "Frequently Asked Question",
+          "How do I apply for a tourism business license",
+          "What documents do I need for hotel/restaurant licensing?",
+          "What are the penalties for operating without a license?",
+          "What gets inspected during hotel/restaurant registration?",
+          "How do I become a licensed tour guide?",
+          "How do I apply for trekking permits?",
+          "How can I verify a business license?",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
         ],
-        "destinations": [
+        "paragraphs": [
+          "The Directorate of Tourist Services regulates and promotes tourism in Gilgit Baltistan, ensuring quality hospitality and partnering for sustainable adventures",
+          "The Directorate of Tourist Services provides various services to regulate and promote tourism in the region",
+          "Apply for and renew tourism business licenses",
+          "Access all tourism-related laws and regulations",
+          "Hotel and restaurant quality grading system",
+          "Find approved tourism service providers",
+          "Information about service fees and payments",
+          "Download forms and important documents",
+          "Comprehensive mountaineering information and expedition management services",
+          "Explore the rich history of mountaineering achievements",
+          "Detailed fee structure for mountaineering expeditions",
+          "Database of mountaineers who conquered our peaks",
+          "View registered expeditions for the current season",
+          "Apply for tourism licenses directly through our online portal",
+          "For businesses organizing and selling tour packages in Gilgit Baltistan",
+          "For accommodation providers including hotels, motels, and camping sites",
+          "For individuals providing guiding services to tourists in Gilgit Baltistan",
+          "Gilgit Baltistan is home to some of the world's highest peaks and most challenging routes. Discover the adventure of a lifetime with these popular mountaineering and trekking options.",
+          "July 25, 2025",
+          "June 26, 2025",
+          "June 27, 2025",
+          "June 4, 2025",
+          "June 4, 2025",
+          "Pakistan Online Visa (E-Visa) System is now open for the citizens of 192 Countries! Moreover, citizens from 64 Countries are eligible to apply for Visa on Arrival (Electronic Travel Authorization - ETA) Tourist Category. Applicants must plan travel only upon receipt of a valid visa. Please select your country to get started.",
+          "If your country is not listed above, kindly visit the nearest Pakistani embassy for details.",
+          "Explore the beauty of Gilgit-Baltistan",
+          "A Tourist Visa allows foreigners to visit Pakistan for tourism purposes, with options for both new applications and extensions for existing visa holders.",
+          "Multiple countries eligible",
+          "7-10 working days",
+          "Up to 3 months",
+          "Passport, photo & more",
+          "Save the date: From 8-10 May, join mountain tourism experts in Chamonix  Summit to share sustainable tourism practices.",
+          "save the date: Showcase Pakistan's  northern beauty to Middle Eastern markets and establish regional partnerships.",
+          "Save the date: Meet industry leaders and showcase Gilgit Baltistan's tourism potential at Pakistan's premier travel trade exhibition. tourism potential at Pakistan's premier travel trade exhibition.",
+          "Follow us on social media for the latest updates, travel tips, and stunning photos from Gilgit Baltistan",
+          "Latest Posts",
+          "Latest Posts",
+          "Find the best tourism services in Gilgit Baltistan",
+          "Download the relevant form (Hotel: FORM-F | Restaurant: FORM-G | Tour Guide: FORM-I), complete with required documents, and submit to DTS. Processing takes 15-30 working days.",
+          "Property ownership/lease proof Building plans and rate/menu lists Owner/manager character certificate Staff CNICs and medical certificates Business incorporation documents (if applicable)",
+          "Fines, immediate closure, and legal action under GB Hotel & Restaurant Act 2019 or Tour Operators Act 2020.",
+          "Hotels: Room standards, public facilities, safety equipment and Restaurants: Kitchen hygiene, seating capacity, food storage areas",
+          "Submit FORM‑I along with: an attested CNIC copy, domicile (if applicable), academic certificates, two recent passport‑size photos, an original Police Character Certificate, a medical‑fitness certificate, proof of training/experience, a recommendation letter from a registered tour operator, the treasury‑challan fee receipt, and a signed affidavit",
+          "Submit online application with route map, team passports, insurance, licensed guide details, and pay fees. Apply 30 days before expedition.",
+          "Contact DTS directly, request to see current license certificate, or check official records.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterDirectorate of Tourist ServicesThe Directorate of Tourist Services regulates and promotes tourism in Gilgit Baltistan, ensuring quality hospitality and partnering for sustainable adventuresRegisterAll CategoriesSearchOur ServicesThe Directorate of Tourist Services provides various services to regulate and promote tourism in the regionLicensingApply for and renew tourism business licensesLegislations\nAccess all tourism-related laws and regulationsGrading\nHotel and restaurant quality grading systemService Providers\nFind approved tourism service providersFees\nInformation about service fees and paymentsDownloads\nDownload forms and important documentsMountaineering ServicesComprehensive mountaineering information and expedition management servicesHistorical Summits\nExplore the rich history of mountaineering achievementsExpedition Fees\nDetailed fee structure for mountaineering expeditionsSuccessful Climbers\nDatabase of mountaineers who conquered our peaksUpcoming Expeditions\nView registered expeditions for the current seasonQuick License ApplicationApply for tourism licenses directly through our online portalTour Operator LicenseFor businesses organizing and selling tour packages in Gilgit BaltistanRegisterHotel/Camping LicenseFor accommodation providers including hotels, motels, and camping sitesRegisterTour Guide License\nFor individuals providing guiding services to tourists in Gilgit BaltistanRegisterMountain AdventuresGilgit Baltistan is home to some of the world's highest peaks and most challenging routes. Discover the adventure of a lifetime with these popular mountaineering and trekking options.VIEW ALLExpeditionsTreksLoading expeditions...Latest News July 25, 2025Important Advisory for Mountaineers and Tour Operators: Insurance Protocols and Permit Regulations in Gilgit-Baltistan   June 26, 2025The Shandur Polo Festival 2025 concluded with a thrilling final match as Team Chitral edged out Gilgit-Baltistan June 27, 2025Chief Secretary GB Hosts Ceremony to Honour Pakistan’s High-Altitude Heroes - Sirbaz Khan, Wajidullah Nagri, and Sajid Ali Sadpara June 4, 2025Shandur Polo Festival 2025 Scheduled for June 20-22 at world's Highest Polo Ground June 4, 2025Babusar Top Reopens for Tourists and Traffic After Six-Month Seasonal ClosureView all newsTourist Visa InformationCheck Visa EligibilityPakistan Online Visa (E-Visa) System is now open for the citizens of 192 Countries! Moreover, citizens from 64 Countries are eligible to apply for Visa on Arrival (Electronic Travel Authorization - ETA) Tourist Category. Applicants must plan travel only upon receipt of a valid visa. Please select your country to get started.Select your countryAfghanistanAlbaniaAlgeriaAndorraAngolaAntigua and BarbudaArgentinaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBhutanBoliviaBosnia and HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCentral African RepublicChadChileChinaColombiaComorosCongo (Republic)Congo Democratic RepublicCosta RicaCote d' Ivoire (Ivory Coast)CroatiaCubaCyprusCzech RepublicDemocratic People Republic of KoreaDenmarkDjiboutiDominicaDominican RepublicEcuadorEgyptEl SalvadorEquatorial GuineaEritreaEstoniaEthiopiaFijiFinlandFranceGabonGambiaGeorgiaGermanyGhanaGreeceGrenadaGuatemalaGuineaGuinea-BissauGuyanaHaitiHoly See (Vatican City)HondurasHungaryIcelandIndonesiaIranIraqIrelandItalyJamaicaJapanJordanKazakhstanKenyaKiribatiKorea (South)KosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLiechtensteinLithuaniaLuxembourgMacedoniaMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMauritaniaMauritiusMexicoMicronesiaMoldovaMonacoMongoliaMontenegroMoroccoMozambiqueMyanmarNamibiaNauruNepalNetherlandsNew ZealandNicaraguaNigerNigeriaNorwayOmanPalauPalestinian Territory, OccupiedPanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalQatarRomaniaRussian FederationRwandaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesSan MarinoSao Tome and PrincipeSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakia RepublicSloveniaSolomon IslandsSomaliaSouth AfricaSouth SudanSpainSri LankaState of LibyaSudanSurinameSwazilandSwedenSwitzerlandSyriaTajikistanTanzaniaThailandTimor-LesteTogoTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited States of America (USA)UruguayUzbekistanVanuatuVenezuelaVietnamWestern SamoaYemenZambiaZimbabweCheck AvailabilityIf your country is not listed above, kindly visit the nearest Pakistani embassy for details.Pakistan Tourist Visa Visit Pakistan with EaseExplore the beauty of Gilgit-BaltistanA Tourist Visa allows foreigners to visit Pakistan for tourism purposes, with options for both new applications and extensions for existing visa holders.Eligibility Multiple countries eligibleProcessing\n7-10 working daysDuration\nUp to 3 monthsDocuments\nPassport, photo & moreApply for Tourist VisaView complete visa information and requirementsTravel Trade Upcoming Events18JUNMountain Tourism Summit, France 2025summitSave the date: From 8-10 May, join mountain tourism experts in Chamonix  Summit to share sustainable tourism practices.  Chamonix Convention Centre, France24JUNArabian Travel Market, UAE 2025regional save the date: Showcase Pakistan's  northern beauty to Middle Eastern markets and establish regional partnerships.Dubai World Trade Centre, UAE19JUNPakistan Travel Mart, Karachi 2025domesticSave the date: Meet industry leaders and showcase Gilgit Baltistan's tourism potential at Pakistan's premier travel trade exhibition. tourism potential at Pakistan's premier travel trade exhibition.Karachi Expo Centre, PakistanStay ConnectedFollow us on social media for the latest updates, travel tips, and stunning photos from Gilgit Baltistan@gilgitbaltistantourismLatest PostsFollow @gilgitbaltistantourism on Instagram→Gilgit Baltistan Tourism DepartmentLatest PostsFollow Gilgit Baltistan Tourism Department on Facebook→Explore ServicesFind the best tourism services in Gilgit BaltistanHotels & CampingTour OperatorsTour GuidesLoading hotels...View All Hotels Frequently Asked QuestionHow do I apply for a tourism business licenseDownload the relevant form (Hotel: FORM-F | Restaurant: FORM-G | Tour Guide: FORM-I), complete with required documents, and submit to DTS. Processing takes 15-30 working days.What documents do I need for hotel/restaurant licensing?Property ownership/lease proof Building plans and rate/menu lists Owner/manager character certificate Staff CNICs and medical certificates Business incorporation documents (if applicable)What are the penalties for operating without a license?Fines, immediate closure, and legal action under GB Hotel & Restaurant Act 2019 or Tour Operators Act 2020.What gets inspected during hotel/restaurant registration?Hotels: Room standards, public facilities, safety equipment and Restaurants: Kitchen hygiene, seating capacity, food storage areasHow do I become a licensed tour guide?Submit FORM‑I along with: an attested CNIC copy, domicile (if applicable), academic certificates, two recent passport‑size photos, an original Police Character Certificate, a medical‑fitness certificate, proof of training/experience, a recommendation letter from a registered tour operator, the treasury‑challan fee receipt, and a signed affidavitHow do I apply for trekking permits?Submit online application with route map, team passports, insurance, licensed guide details, and pay fees. Apply 30 days before expedition.How can I verify a business license?Contact DTS directly, request to see current license certificate, or check official records.Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "processes": [
           {
-            "name": "Skardu",
-            "description": "Gateway to K2 and Baltoro Glacier, famous for mountaineering"
-          },
-          {
-            "name": "Hunza Valley",
-            "description": "Beautiful valley known for Karimabad and stunning mountain views"
-          },
-          {
-            "name": "Fairy Meadows",
-            "description": "Base camp for Nanga Parbat, popular trekking destination"
-          },
-          {
-            "name": "Deosai National Park",
-            "description": "High altitude plateau, famous for wildlife and flowers"
+            "title": "Application Process",
+            "steps": [
+              "10. May, join mountain tourism experts in Chamonix  Summit to share sustainable tourism practices.  Chamonix Convention Centre, France"
+            ]
           }
         ],
-        "contact": {
-          "phone": "+92-5811-920001",
-          "email": "info@dtsgb.gog.pk",
-          "helpline": "1422",
-          "address": "Directorate of Tourism Services, Gilgit-Baltistan"
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "The Directorate of Tourist Services regulates and promotes tourism in Gilgit Baltistan, ensuring quality hospitality and partnering for sustainable adventures",
+            "For businesses organizing and selling tour packages in Gilgit Baltistan",
+            "For individuals providing guiding services to tourists in Gilgit Baltistan",
+            "Gilgit Baltistan is home to some of the world's highest peaks and most challenging routes. Discover the adventure of a lifetime with these popular mountaineering and trekking options.",
+            "Explore the beauty of Gilgit-Baltistan",
+            "Save the date: Meet industry leaders and showcase Gilgit Baltistan's tourism potential at Pakistan's premier travel trade exhibition. tourism potential at Pakistan's premier travel trade exhibition.",
+            "Follow us on social media for the latest updates, travel tips, and stunning photos from Gilgit Baltistan",
+            "Find the best tourism services in Gilgit Baltistan",
+            "Property ownership/lease proof Building plans and rate/menu lists Owner/manager character certificate Staff CNICs and medical certificates Business incorporation documents (if applicable)",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
         }
-      }
+      },
+      "section": "Main Website"
     },
     {
       "url": "https://app.dtsgb.gog.pk/auth/login",
-      "title": "DTS Login Portal",
-      "scrapedAt": "2024-01-15T10:00:00Z",
+      "title": "DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:34.953Z",
       "content": {
+        "type": "authentication",
+        "section": "Login & Registration",
+        "url": "https://app.dtsgb.gog.pk/auth/login",
+        "headings": [],
+        "paragraphs": [],
+        "allText": "",
+        "structuredLists": [],
         "loginUrl": "https://app.dtsgb.gog.pk/auth/login",
-        "accountTypes": ["Government Officials", "Tourism Operators", "Registered Businesses", "Authorized Personnel"],
-        "loginSteps": [
-          "Visit https://app.dtsgb.gog.pk/auth/login",
-          "Enter your username/email",
-          "Enter your password",
-          "Click Sign In button"
-        ],
-        "commonIssues": [
-          {
-            "issue": "Forgot Password",
-            "solution": "Click 'Forgot Password' link on login page or contact IT support"
-          },
-          {
-            "issue": "Account Locked",
-            "solution": "Contact system administrator or call +92-5811-920001"
-          },
-          {
-            "issue": "Browser Issues",
-            "solution": "Clear cache, try different browser, enable JavaScript"
-          }
-        ],
-        "accountCreation": {
+        "accountInfo": {
+          "accountTypes": [
+            "Government Officials",
+            "Tourism Operators",
+            "Registered Businesses",
+            "Authorized Personnel"
+          ],
           "eligibility": "Only authorized personnel and registered tourism operators",
           "requirements": [
             "Valid CNIC",
             "Business License (for operators)",
-            "Official recommendation letter",
-            "Contact DTS office for approval"
+            "Official recommendation letter"
           ],
           "process": "Submit documents to DTS office for verification and approval"
+        },
+        "formFields": []
+      },
+      "section": "Login & Registration"
+    },
+    {
+      "url": "https://app.dtsgb.gog.pk/auth/register",
+      "title": "DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:37.226Z",
+      "content": {
+        "type": "authentication",
+        "section": "Create Account",
+        "url": "https://app.dtsgb.gog.pk/auth/register",
+        "headings": [],
+        "paragraphs": [],
+        "allText": "",
+        "structuredLists": [],
+        "loginUrl": "https://app.dtsgb.gog.pk/auth/register",
+        "accountInfo": {
+          "accountTypes": [
+            "Government Officials",
+            "Tourism Operators",
+            "Registered Businesses",
+            "Authorized Personnel"
+          ],
+          "eligibility": "Only authorized personnel and registered tourism operators",
+          "requirements": [
+            "Valid CNIC",
+            "Business License (for operators)",
+            "Official recommendation letter"
+          ],
+          "process": "Submit documents to DTS office for verification and approval"
+        },
+        "formFields": []
+      },
+      "section": "Create Account",
+      "parentSection": "Login & Registration"
+    },
+    {
+      "url": "https://app.dtsgb.gog.pk/app",
+      "title": "DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:39.481Z",
+      "content": {
+        "type": "authentication",
+        "section": "Register for Licenses",
+        "url": "https://app.dtsgb.gog.pk/app",
+        "headings": [],
+        "paragraphs": [],
+        "allText": "",
+        "structuredLists": [],
+        "loginUrl": "https://app.dtsgb.gog.pk/app",
+        "accountInfo": {
+          "accountTypes": [
+            "Government Officials",
+            "Tourism Operators",
+            "Registered Businesses",
+            "Authorized Personnel"
+          ],
+          "eligibility": "Only authorized personnel and registered tourism operators",
+          "requirements": [
+            "Valid CNIC",
+            "Business License (for operators)",
+            "Official recommendation letter"
+          ],
+          "process": "Submit documents to DTS office for verification and approval"
+        },
+        "formFields": []
+      },
+      "section": "Register for Licenses",
+      "parentSection": "Login & Registration"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/services",
+      "title": "Services | Directorate Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:42.314Z",
+      "content": {
+        "type": "services",
+        "section": "Tourism Services",
+        "url": "https://dtsgb.gog.pk/services",
+        "headings": [
+          "Our Services",
+          "Our Services",
+          "Legislations",
+          "Licensing",
+          "Grading",
+          "Service Providers",
+          "Fees",
+          "Downloads",
+          "Licensing Services",
+          "Types of Licenses",
+          "Tour Operator License",
+          "Hotel License",
+          "Restaurant License",
+          "Tour Guide License",
+          "Adventure Tourism License",
+          "Licensing Process",
+          "Application Submission",
+          "Document Verification",
+          "Inspection",
+          "Approval",
+          "License Issuance",
+          "Processing Time",
+          "Quality Grading System",
+          "Hotel Grading Criteria",
+          "Accommodation Quality",
+          "Services",
+          "Facilities",
+          "Safety & Sustainability",
+          "Downloads",
+          "License Application Forms",
+          "Guidelines & Standards",
+          "Policies & Regulations",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Comprehensive tourism services to support visitors and businesses in Gilgit Baltistan",
+          "The Directorate of Tourist Services provides a wide range of services to support tourism in Gilgit Baltistan. From regulatory functions to promotional activities, we are committed to ensuring a high-quality experience for visitors and sustainable growth for the tourism industry.",
+          "Access all tourism-related laws and regulations",
+          "Apply for and renew tourism business licenses",
+          "Hotel and restaurant quality grading system",
+          "Find approved tourism service providers",
+          "Information about service fees and payments",
+          "Download forms and important documents",
+          "The Directorate of Tourist Services issues and renews licenses for various tourism businesses operating in Gilgit Baltistan. Our licensing process ensures that all tourism service providers meet the required standards for quality and safety.",
+          "For businesses organizing and selling tour packages in Gilgit Baltistan.",
+          "For accommodation providers including hotels, motels, and guesthouses.",
+          "For food service establishments catering to tourists.",
+          "For individuals providing guiding services to tourists.",
+          "For businesses offering adventure activities like trekking, climbing, and rafting.",
+          "Complete and submit the application form along with required documents and fees.",
+          "Our team verifies all submitted documents and information for completeness and accuracy.",
+          "For physical establishments, an inspection is conducted to ensure compliance with standards.",
+          "Applications meeting all requirements are approved, and licenses are issued.",
+          "Successful applicants receive their license, valid for the specified period.",
+          "The typical processing time for license applications is 15-30 working days, depending on the type of license and completeness of documentation.",
+          "Our quality grading system helps tourists identify establishments that meet specific standards of service, cleanliness, and facilities. The grading system applies to hotels, restaurants, and other tourism facilities.",
+          "Hotels are graded on a 1–5 star scale based on the following criteria:",
+          "Access important forms, applications, guidelines, and other documents related to tourism services in Gilgit Baltistan.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterOur ServicesComprehensive tourism services to support visitors and businesses in Gilgit BaltistanHome>ServicesOur ServicesThe Directorate of Tourist Services provides a wide range of services to support tourism in Gilgit Baltistan. From regulatory functions to promotional activities, we are committed to ensuring a high-quality experience for visitors and sustainable growth for the tourism industry.\n\nLegislationsAccess all tourism-related laws and regulationsLicensingApply for and renew tourism business licensesGrading\nHotel and restaurant quality grading systemService Providers\nFind approved tourism service providersFees\nInformation about service fees and paymentsDownloads\nDownload forms and important documentsLicensing ServicesThe Directorate of Tourist Services issues and renews licenses for various tourism businesses operating in Gilgit Baltistan. Our licensing process ensures that all tourism service providers meet the required standards for quality and safety.\n\nTypes of LicensesTour Operator LicenseFor businesses organizing and selling tour packages in Gilgit Baltistan.\n\nHotel LicenseFor accommodation providers including hotels, motels, and guesthouses.\n\nRestaurant LicenseFor food service establishments catering to tourists.\n\nTour Guide LicenseFor individuals providing guiding services to tourists.\n\nAdventure Tourism LicenseFor businesses offering adventure activities like trekking, climbing, and rafting.\n\nRegisterLicensing Process1Application SubmissionComplete and submit the application form along with required documents and fees.2Document VerificationOur team verifies all submitted documents and information for completeness and accuracy.3InspectionFor physical establishments, an inspection is conducted to ensure compliance with standards.4ApprovalApplications meeting all requirements are approved, and licenses are issued.5License IssuanceSuccessful applicants receive their license, valid for the specified period.Processing TimeThe typical processing time for license applications is 15-30 working days, depending on the type of license and completeness of documentation.Quality Grading SystemOur quality grading system helps tourists identify establishments that meet specific standards of service, cleanliness, and facilities. The grading system applies to hotels, restaurants, and other tourism facilities.HotelRestaurant Tourism Hotel Grading CriteriaHotels are graded on a 1–5 star scale based on the following criteria:\n\nAccommodation QualityRoom size and comfortBed quality and beddingBathroom facilitiesFurniture and fixturesCleanliness and maintenanceServicesReception and check-inRoom service Housekeeping Concierge services Staff professionalismFacilitiesDining optionsRecreational facilitiesBusiness servicesParking and transportationAccessibility featuresSafety & SustainabilityFire safety measuresSecurity systemsEmergency proceduresEnvironmental practicesEnergy and water conservationDownloadsAccess important forms, applications, guidelines, and other documents related to tourism services in Gilgit Baltistan.License Application FormsApplication Form for License of Tour GuideDownloadApplication Form for License of HotelDownloadApplication Form for License of RestaurantDownloadGuidelines & StandardsTourist Guide Map Gilgit-BaltistanDownloadRegistered Tourist GuidesDownloadGB Tourist Guide ActDownloadPolicies & RegulationsGB Hotel & Restaurant Act 2019DownloadGB Travel Agency and Tour Operators ActDownloadFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Services"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Tour Operator LicenseFor businesses organizing and selling tour packages in Gilgit Baltistan.",
+              "Hotel LicenseFor accommodation providers including hotels, motels, and guesthouses.",
+              "Restaurant LicenseFor food service establishments catering to tourists.",
+              "Tour Guide LicenseFor individuals providing guiding services to tourists.",
+              "Adventure Tourism LicenseFor businesses offering adventure activities like trekking, climbing, and rafting."
+            ],
+            "context": "Types of Licenses",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "1Application SubmissionComplete and submit the application form along with required documents and fees.",
+              "2Document VerificationOur team verifies all submitted documents and information for completeness and accuracy.",
+              "3InspectionFor physical establishments, an inspection is conducted to ensure compliance with standards.",
+              "4ApprovalApplications meeting all requirements are approved, and licenses are issued.",
+              "5License IssuanceSuccessful applicants receive their license, valid for the specified period."
+            ],
+            "context": "Licensing Process",
+            "type": "ol"
+          },
+          {
+            "items": [
+              "Room size and comfort",
+              "Bed quality and bedding",
+              "Bathroom facilities",
+              "Furniture and fixtures",
+              "Cleanliness and maintenance"
+            ],
+            "context": "Accommodation Quality",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Reception and check-in",
+              "Room service",
+              "Housekeeping",
+              "Concierge services",
+              "Staff professionalism"
+            ],
+            "context": "Services",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Dining options",
+              "Recreational facilities",
+              "Business services",
+              "Parking and transportation",
+              "Accessibility features"
+            ],
+            "context": "Facilities",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Fire safety measures",
+              "Security systems",
+              "Emergency procedures",
+              "Environmental practices",
+              "Energy and water conservation"
+            ],
+            "context": "Safety & Sustainability",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Application Form for License of Tour GuideDownload",
+              "Application Form for License of HotelDownload",
+              "Application Form for License of RestaurantDownload"
+            ],
+            "context": "License Application Forms",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Tourist Guide Map Gilgit-BaltistanDownload",
+              "Registered Tourist GuidesDownload",
+              "GB Tourist Guide ActDownload"
+            ],
+            "context": "Guidelines & Standards",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "GB Hotel & Restaurant Act 2019Download",
+              "GB Travel Agency and Tour Operators ActDownload"
+            ],
+            "context": "Policies & Regulations",
+            "type": "ul"
+          }
+        ],
+        "processes": [
+          {
+            "title": "Licensing Process",
+            "steps": [
+              "1Application SubmissionComplete and submit the application form along with required documents and fees.",
+              "2Document VerificationOur team verifies all submitted documents and information for completeness and accuracy.",
+              "3InspectionFor physical establishments, an inspection is conducted to ensure compliance with standards.",
+              "4ApprovalApplications meeting all requirements are approved, and licenses are issued.",
+              "5License IssuanceSuccessful applicants receive their license, valid for the specified period."
+            ]
+          },
+          {
+            "title": "Application Process",
+            "steps": [
+              "1. Application SubmissionComplete and submit the application form along with required documents and fees.",
+              "2. Document VerificationOur team verifies all submitted documents and information for completeness and accuracy.",
+              "3. InspectionFor physical establishments, an inspection is conducted to ensure compliance with standards.",
+              "4. ApprovalApplications meeting all requirements are approved, and licenses are issued."
+            ]
+          }
+        ],
+        "requirements": [
+          {
+            "category": "Types of Licenses",
+            "items": [
+              "Tour Operator LicenseFor businesses organizing and selling tour packages in Gilgit Baltistan.",
+              "Hotel LicenseFor accommodation providers including hotels, motels, and guesthouses.",
+              "Restaurant LicenseFor food service establishments catering to tourists.",
+              "Tour Guide LicenseFor individuals providing guiding services to tourists.",
+              "Adventure Tourism LicenseFor businesses offering adventure activities like trekking, climbing, and rafting."
+            ]
+          },
+          {
+            "category": "Licensing Process",
+            "items": [
+              "1Application SubmissionComplete and submit the application form along with required documents and fees.",
+              "2Document VerificationOur team verifies all submitted documents and information for completeness and accuracy.",
+              "3InspectionFor physical establishments, an inspection is conducted to ensure compliance with standards.",
+              "4ApprovalApplications meeting all requirements are approved, and licenses are issued.",
+              "5License IssuanceSuccessful applicants receive their license, valid for the specified period."
+            ]
+          },
+          {
+            "category": "License Application Forms",
+            "items": [
+              "Application Form for License of Tour GuideDownload",
+              "Application Form for License of HotelDownload",
+              "Application Form for License of RestaurantDownload"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Comprehensive tourism services to support visitors and businesses in Gilgit Baltistan",
+            "The Directorate of Tourist Services provides a wide range of services to support tourism in Gilgit Baltistan. From regulatory functions to promotional activities, we are committed to ensuring a high-quality experience for visitors and sustainable growth for the tourism industry.",
+            "The Directorate of Tourist Services issues and renews licenses for various tourism businesses operating in Gilgit Baltistan. Our licensing process ensures that all tourism service providers meet the required standards for quality and safety.",
+            "For businesses organizing and selling tour packages in Gilgit Baltistan.",
+            "Access important forms, applications, guidelines, and other documents related to tourism services in Gilgit Baltistan.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "serviceTypes": [
+          {
+            "category": "Types of Licenses",
+            "services": [
+              "Tour Operator LicenseFor businesses organizing and selling tour packages in Gilgit Baltistan.",
+              "Hotel LicenseFor accommodation providers including hotels, motels, and guesthouses.",
+              "Restaurant LicenseFor food service establishments catering to tourists.",
+              "Tour Guide LicenseFor individuals providing guiding services to tourists.",
+              "Adventure Tourism LicenseFor businesses offering adventure activities like trekking, climbing, and rafting."
+            ]
+          },
+          {
+            "category": "Services",
+            "services": [
+              "Reception and check-in",
+              "Room service",
+              "Housekeeping",
+              "Concierge services",
+              "Staff professionalism"
+            ]
+          },
+          {
+            "category": "License Application Forms",
+            "services": [
+              "Application Form for License of Tour GuideDownload",
+              "Application Form for License of HotelDownload",
+              "Application Form for License of RestaurantDownload"
+            ]
+          }
+        ]
+      },
+      "section": "Tourism Services"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/services/licensing",
+      "title": "Licensing",
+      "scrapedAt": "2025-08-06T07:18:44.711Z",
+      "content": {
+        "type": "services",
+        "section": "Licensing",
+        "url": "https://dtsgb.gog.pk/services/licensing",
+        "headings": [
+          "Tourism Business Licensing",
+          "Overview",
+          "Requirements",
+          "Process",
+          "Contact Information",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Complete guide to obtaining and renewing tourism business licenses in Gilgit-Baltistan",
+          "The Directorate of Tourist Services is responsible for regulating tourism businesses in Gilgit-Baltistan through a comprehensive licensing system. All tourism-related businesses must obtain proper licenses to operate legally in the region.",
+          "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+          "+92-5811-920001",
+          "[email protected]",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterTourism Business LicensingComplete guide to obtaining and renewing tourism business licenses in Gilgit-BaltistanHome>Services>Tourism Business LicensingOverviewThe Directorate of Tourist Services is responsible for regulating tourism businesses in Gilgit-Baltistan through a comprehensive licensing system. All tourism-related businesses must obtain proper licenses to operate legally in the region.RequirementsValid CNIC or PassportBusiness registration documentsLocation NOC from local authoritiesFire safety certificateEnvironmental clearance (if applicable)Insurance coverage documentsProcess1Submit online application with required documents2Pay applicable fees through designated bank3Site inspection by DTS officials4Review and verification process5License issuance upon approvalContact InformationAddressDirectorate of Tourist ServicesGilgit, Gilgit-BaltistanPhone+92-5811-920001Email[email protected]Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Services>",
+              "Tourism Business Licensing"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Valid CNIC or Passport",
+              "Business registration documents",
+              "Location NOC from local authorities",
+              "Fire safety certificate",
+              "Environmental clearance (if applicable)",
+              "Insurance coverage documents"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "processes": [
+          {
+            "title": "Application Process",
+            "steps": [
+              "1. Submit online application with required documents",
+              "2. Pay applicable fees through designated bank",
+              "3. Site inspection by DTS officials",
+              "4. Review and verification process",
+              "5. License issuance upon approval"
+            ]
+          }
+        ],
+        "requirements": [
+          {
+            "category": "General List",
+            "items": [
+              "Valid CNIC or Passport",
+              "Business registration documents",
+              "Location NOC from local authorities",
+              "Fire safety certificate",
+              "Environmental clearance (if applicable)",
+              "Insurance coverage documents"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "+92-5811-920001",
+            "5811-920173"
+          ],
+          "addresses": [
+            "Complete guide to obtaining and renewing tourism business licenses in Gilgit-Baltistan",
+            "The Directorate of Tourist Services is responsible for regulating tourism businesses in Gilgit-Baltistan through a comprehensive licensing system. All tourism-related businesses must obtain proper licenses to operate legally in the region.",
+            "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "serviceTypes": [],
+        "licensing": {
+          "overview": "Complete guide to obtaining and renewing tourism business licenses in Gilgit-Baltistan",
+          "requirements": [
+            {
+              "category": "General List",
+              "items": [
+                "Valid CNIC or Passport",
+                "Business registration documents",
+                "Location NOC from local authorities",
+                "Fire safety certificate",
+                "Environmental clearance (if applicable)",
+                "Insurance coverage documents"
+              ]
+            }
+          ],
+          "processes": [
+            {
+              "title": "Application Process",
+              "steps": [
+                "1. Submit online application with required documents",
+                "2. Pay applicable fees through designated bank",
+                "3. Site inspection by DTS officials",
+                "4. Review and verification process",
+                "5. License issuance upon approval"
+              ]
+            }
+          ],
+          "types": [
+            "Tour Operator License",
+            "Hotel/Camping License",
+            "Tour Guide License"
+          ]
         }
-      }
+      },
+      "section": "Licensing",
+      "parentSection": "Tourism Services"
+    },
+    {
+      "url": "https://app.dtsgb.gog.pk/app",
+      "title": "DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:47.460Z",
+      "content": {
+        "type": "general",
+        "section": "Tour Operator License",
+        "url": "https://app.dtsgb.gog.pk/app",
+        "headings": [],
+        "paragraphs": [],
+        "allText": "",
+        "structuredLists": []
+      },
+      "section": "Tour Operator License",
+      "parentSection": "Licensing"
+    },
+    {
+      "url": "https://app.dtsgb.gog.pk/app",
+      "title": "DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:49.728Z",
+      "content": {
+        "type": "general",
+        "section": "Hotel/Camping License",
+        "url": "https://app.dtsgb.gog.pk/app",
+        "headings": [],
+        "paragraphs": [],
+        "allText": "",
+        "structuredLists": []
+      },
+      "section": "Hotel/Camping License",
+      "parentSection": "Licensing"
+    },
+    {
+      "url": "https://app.dtsgb.gog.pk/app",
+      "title": "DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:18:51.992Z",
+      "content": {
+        "type": "general",
+        "section": "Tour Guide License",
+        "url": "https://app.dtsgb.gog.pk/app",
+        "headings": [],
+        "paragraphs": [],
+        "allText": "",
+        "structuredLists": []
+      },
+      "section": "Tour Guide License",
+      "parentSection": "Licensing"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/services/legislations",
+      "title": "Legislations",
+      "scrapedAt": "2025-08-06T07:18:54.824Z",
+      "content": {
+        "type": "services",
+        "section": "Legislations",
+        "url": "https://dtsgb.gog.pk/services/legislations",
+        "headings": [
+          "Tourism Laws & Regulations",
+          "Overview",
+          "Requirements",
+          "Process",
+          "Contact Information",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Access comprehensive tourism legislation and regulatory framework for Gilgit-Baltistan",
+          "The tourism sector in Gilgit-Baltistan is governed by comprehensive laws and regulations designed to ensure sustainable tourism development while protecting the region's natural and cultural heritage.",
+          "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+          "+92-5811-920001",
+          "[email protected]",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterTourism Laws & RegulationsAccess comprehensive tourism legislation and regulatory framework for Gilgit-BaltistanHome>Services>Tourism Laws & RegulationsOverviewThe tourism sector in Gilgit-Baltistan is governed by comprehensive laws and regulations designed to ensure sustainable tourism development while protecting the region's natural and cultural heritage.RequirementsGilgit-Baltistan Tourism Act 2020Environmental Protection RegulationsCultural Heritage Protection LawsSafety and Security GuidelinesTourist Guide Certification RulesHotel and Restaurant StandardsProcess1Review applicable laws and regulations2Ensure compliance with all requirements3Regular updates on policy changes4Consultation with legal experts if needed5Implementation of best practicesContact InformationAddressDirectorate of Tourist ServicesGilgit, Gilgit-BaltistanPhone+92-5811-920001Email[email protected]Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Services>",
+              "Tourism Laws & Regulations"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Gilgit-Baltistan Tourism Act 2020",
+              "Environmental Protection Regulations",
+              "Cultural Heritage Protection Laws",
+              "Safety and Security Guidelines",
+              "Tourist Guide Certification Rules",
+              "Hotel and Restaurant Standards"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "processes": [
+          {
+            "title": "Application Process",
+            "steps": [
+              "1. Review applicable laws and regulations",
+              "2. Ensure compliance with all requirements",
+              "3. Regular updates on policy changes",
+              "4. Consultation with legal experts if needed",
+              "5. Implementation of best practices"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "+92-5811-920001",
+            "5811-920173"
+          ],
+          "addresses": [
+            "Access comprehensive tourism legislation and regulatory framework for Gilgit-Baltistan",
+            "The tourism sector in Gilgit-Baltistan is governed by comprehensive laws and regulations designed to ensure sustainable tourism development while protecting the region's natural and cultural heritage.",
+            "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "serviceTypes": []
+      },
+      "section": "Legislations",
+      "parentSection": "Tourism Services"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/services/grading",
+      "title": "Grading",
+      "scrapedAt": "2025-08-06T07:18:57.176Z",
+      "content": {
+        "type": "services",
+        "section": "Grading",
+        "url": "https://dtsgb.gog.pk/services/grading",
+        "headings": [
+          "Hotel & Restaurant Grading",
+          "Overview",
+          "Requirements",
+          "Process",
+          "Contact Information",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Quality assessment and grading system for hospitality establishments",
+          "The grading system ensures that hotels and restaurants in Gilgit-Baltistan meet international standards of quality and service, helping tourists make informed choices while encouraging businesses to maintain high standards.",
+          "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+          "+92-5811-920001",
+          "[email protected]",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterHotel & Restaurant GradingQuality assessment and grading system for hospitality establishmentsHome>Services>Hotel & Restaurant GradingOverviewThe grading system ensures that hotels and restaurants in Gilgit-Baltistan meet international standards of quality and service, helping tourists make informed choices while encouraging businesses to maintain high standards.RequirementsValid business licenseCompliance with safety standardsQuality service protocolsStaff training certificationsFacility maintenance recordsCustomer feedback systemsProcess1Application for grading assessment2Initial facility inspection3Service quality evaluation4Staff competency assessment5Final grading determination6Certificate issuance and displayContact InformationAddressDirectorate of Tourist ServicesGilgit, Gilgit-BaltistanPhone+92-5811-920001Email[email protected]Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Services>",
+              "Hotel & Restaurant Grading"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Valid business license",
+              "Compliance with safety standards",
+              "Quality service protocols",
+              "Staff training certifications",
+              "Facility maintenance records",
+              "Customer feedback systems"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "processes": [
+          {
+            "title": "Application Process",
+            "steps": [
+              "1. Application for grading assessment",
+              "2. Initial facility inspection",
+              "3. Service quality evaluation",
+              "4. Staff competency assessment",
+              "5. Final grading determination",
+              "6. Certificate issuance and display"
+            ]
+          }
+        ],
+        "requirements": [
+          {
+            "category": "General List",
+            "items": [
+              "Valid business license",
+              "Compliance with safety standards",
+              "Quality service protocols",
+              "Staff training certifications",
+              "Facility maintenance records",
+              "Customer feedback systems"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "+92-5811-920001",
+            "5811-920173"
+          ],
+          "addresses": [
+            "The grading system ensures that hotels and restaurants in Gilgit-Baltistan meet international standards of quality and service, helping tourists make informed choices while encouraging businesses to maintain high standards.",
+            "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "serviceTypes": []
+      },
+      "section": "Grading",
+      "parentSection": "Tourism Services"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/services/service-providers",
+      "title": "Service Providers",
+      "scrapedAt": "2025-08-06T07:18:59.524Z",
+      "content": {
+        "type": "services",
+        "section": "Service Providers",
+        "url": "https://dtsgb.gog.pk/services/service-providers",
+        "headings": [
+          "Approved Service Providers",
+          "Overview",
+          "Requirements",
+          "Process",
+          "Contact Information",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Directory of certified and approved tourism service providers in the region",
+          "Find verified and approved tourism service providers including tour operators, guides, hotels, and other hospitality services that meet the Directorate's quality standards and regulatory requirements.",
+          "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+          "+92-5811-920001",
+          "[email protected]",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterApproved Service ProvidersDirectory of certified and approved tourism service providers in the regionHome>Services>Approved Service ProvidersOverviewFind verified and approved tourism service providers including tour operators, guides, hotels, and other hospitality services that meet the Directorate's quality standards and regulatory requirements.RequirementsValid DTS licenseInsurance coverageProfessional certificationsClean compliance recordCustomer satisfaction ratingsRegular renewal of credentialsProcess1Search provider database2Verify credentials and ratings3Contact providers directly4Compare services and prices5Book through approved channels6Provide feedback after serviceContact InformationAddressDirectorate of Tourist ServicesGilgit, Gilgit-BaltistanPhone+92-5811-920001Email[email protected]Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Services>",
+              "Approved Service Providers"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Valid DTS license",
+              "Insurance coverage",
+              "Professional certifications",
+              "Clean compliance record",
+              "Customer satisfaction ratings",
+              "Regular renewal of credentials"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "processes": [
+          {
+            "title": "Application Process",
+            "steps": [
+              "1. Search provider database"
+            ]
+          }
+        ],
+        "requirements": [
+          {
+            "category": "General List",
+            "items": [
+              "Valid DTS license",
+              "Insurance coverage",
+              "Professional certifications",
+              "Clean compliance record",
+              "Customer satisfaction ratings",
+              "Regular renewal of credentials"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "+92-5811-920001",
+            "5811-920173"
+          ],
+          "addresses": [
+            "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [
+            "rs,"
+          ],
+          "tables": []
+        },
+        "serviceTypes": []
+      },
+      "section": "Service Providers",
+      "parentSection": "Tourism Services"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/services/downloads",
+      "title": "Downloads",
+      "scrapedAt": "2025-08-06T07:19:01.875Z",
+      "content": {
+        "type": "services",
+        "section": "Downloads",
+        "url": "https://dtsgb.gog.pk/services/downloads",
+        "headings": [
+          "Forms & Documents",
+          "Overview",
+          "Requirements",
+          "Process",
+          "Contact Information",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Download essential forms, applications, and important documents",
+          "Access all necessary forms, applications, guidelines, and documents required for various tourism-related services and compliance requirements.",
+          "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+          "+92-5811-920001",
+          "[email protected]",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterForms & DocumentsDownload essential forms, applications, and important documentsHome>Services>Forms & DocumentsOverviewAccess all necessary forms, applications, guidelines, and documents required for various tourism-related services and compliance requirements.RequirementsLicense application formsRenewal documentationCompliance checklistsGuidelines and manualsFee structure documentsLegal framework papersProcess1Browse document categories2Select required forms/documents3Download in PDF format4Fill out forms completely5Submit as per instructions6Keep copies for recordsContact InformationAddressDirectorate of Tourist ServicesGilgit, Gilgit-BaltistanPhone+92-5811-920001Email[email protected]Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Services>",
+              "Forms & Documents"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "License application forms",
+              "Renewal documentation",
+              "Compliance checklists",
+              "Guidelines and manuals",
+              "Fee structure documents",
+              "Legal framework papers"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "processes": [
+          {
+            "title": "Application Process",
+            "steps": [
+              "1. Browse document categories",
+              "2. Select required forms/documents",
+              "3. Download in PDF format",
+              "4. Fill out forms completely",
+              "5. Submit as per instructions",
+              "6. Keep copies for records"
+            ]
+          }
+        ],
+        "requirements": [
+          {
+            "category": "General List",
+            "items": [
+              "License application forms",
+              "Renewal documentation",
+              "Compliance checklists",
+              "Guidelines and manuals",
+              "Fee structure documents",
+              "Legal framework papers"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "+92-5811-920001",
+            "5811-920173"
+          ],
+          "addresses": [
+            "Directorate of Tourist ServicesGilgit, Gilgit-Baltistan",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "serviceTypes": []
+      },
+      "section": "Downloads",
+      "parentSection": "Tourism Services"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/fees",
+      "title": "Fees & Charges | Directorate of Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:04.154Z",
+      "content": {
+        "type": "fees",
+        "section": "Fees & Expeditions",
+        "url": "https://dtsgb.gog.pk/fees",
+        "headings": [
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Loading fee information...",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterLoading fee information...Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "feeCategories": [],
+        "feeStructure": []
+      },
+      "section": "Fees & Expeditions"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/fees#",
+      "title": "Fees & Charges | Directorate of Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:06.451Z",
+      "content": {
+        "type": "fees",
+        "section": "General Fees",
+        "url": "https://dtsgb.gog.pk/fees#",
+        "headings": [
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Loading fee information...",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterLoading fee information...Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "feeCategories": [],
+        "feeStructure": []
+      },
+      "section": "General Fees",
+      "parentSection": "Fees & Expeditions"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/fees#expeditions",
+      "title": "Fees & Charges | Directorate of Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:08.716Z",
+      "content": {
+        "type": "fees",
+        "section": "Expedition Fees",
+        "url": "https://dtsgb.gog.pk/fees#expeditions",
+        "headings": [
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Loading fee information...",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterLoading fee information...Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "feeCategories": [],
+        "feeStructure": []
+      },
+      "section": "Expedition Fees",
+      "parentSection": "Fees & Expeditions"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/mountaineering",
+      "title": "Mountaineering | Directorate of Tourism Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:11.007Z",
+      "content": {
+        "type": "mountaineering",
+        "section": "Mountaineering",
+        "url": "https://dtsgb.gog.pk/mountaineering",
+        "headings": [
+          "Mountaineering in Gilgit-Baltistan",
+          "Mountaineering Services",
+          "Historical Summits",
+          "Expedition Fees",
+          "Successful Climbers",
+          "Upcoming Expeditions",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Explore expedition records, fees, and successful climbers database.",
+          "Comprehensive mountaineering information and expedition management services",
+          "Explore the rich history of mountaineering achievements in Gilgit-Baltistan",
+          "Detailed fee structure for mountaineering expeditions and permits",
+          "Database of mountaineers who successfully conquered our peaks",
+          "View registered expeditions for the current climbing season",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterMountaineering in Gilgit-BaltistanHome to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Explore expedition records, fees, and successful climbers database.25+Total Peaks2,500+Successful Expeditions1,800+International Climbers700+Local ClimbersMountaineering ServicesComprehensive mountaineering information and expedition management servicesHistorical SummitsExplore the rich history of mountaineering achievements in Gilgit-Baltistan500+ Historical RecordsExpedition FeesDetailed fee structure for mountaineering expeditions and permitsUpdated Fee StructureSuccessful ClimbersDatabase of mountaineers who successfully conquered our peaks2,500+ Successful ClimbsUpcoming ExpeditionsView registered expeditions for the current climbing season150+ Registered ExpeditionsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Explore the rich history of mountaineering achievements in Gilgit-Baltistan",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [
+            "rs700"
+          ],
+          "tables": []
+        },
+        "peaks": [],
+        "expeditions": []
+      },
+      "section": "Mountaineering"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/mountaineering/historical-summits",
+      "title": "Historical Summits - Mountaineering History of Gilgit-Baltistan",
+      "scrapedAt": "2025-08-06T07:19:13.384Z",
+      "content": {
+        "type": "mountaineering",
+        "section": "Historical Summits",
+        "url": "https://dtsgb.gog.pk/mountaineering/historical-summits",
+        "headings": [
+          "Historical Summits",
+          "Historical Milestones",
+          "K2 first surveyed and named by British surveyor T.G. Montgomerie",
+          "First serious attempt on K2 by Oscar Eckenstein and Aleister Crowley",
+          "Hermann Buhl's solo first ascent of Nanga Parbat",
+          "First successful ascent of K2 by Italian expedition",
+          "Jerzy Kukuczka completes first winter ascent of K2",
+          "First winter ascent of K2 by Nepalese team",
+          "Peak Climbing Records",
+          "K2 (8,611m)",
+          "First Ascent",
+          "Statistics",
+          "Nanga Parbat (8,126m)",
+          "First Ascent",
+          "Statistics",
+          "Gasherbrum I (8,080m)",
+          "First Ascent",
+          "Statistics",
+          "Broad Peak (8,051m)",
+          "First Ascent",
+          "Statistics",
+          "Gasherbrum II (8,034m)",
+          "First Ascent",
+          "Statistics",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Explore the rich mountaineering history of Gilgit-Baltistan's peaks",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterHistorical SummitsExplore the rich mountaineering history of Gilgit-Baltistan's peaksBack to MountaineeringHistorical Milestones1856K2 first surveyed and named by British surveyor T.G. MontgomerieDiscovery1902First serious attempt on K2 by Oscar Eckenstein and Aleister CrowleyEarly Exploration1953Hermann Buhl's solo first ascent of Nanga ParbatHistoric Achievement1954First successful ascent of K2 by Italian expeditionMajor Breakthrough1986Jerzy Kukuczka completes first winter ascent of K2Winter Climbing Era2021First winter ascent of K2 by Nepalese teamModern AchievementPeak Climbing RecordsK2 (8,611m)ExtremeFirst AscentDate: July 31, 1954Climbers: Achille Compagnoni, Lino LacedelliNationality: ItalianExpedition: Italian K2 ExpeditionStatistics425Total Ascents82%Success Rate91FatalitiesJune - AugustClimbing SeasonNanga Parbat (8,126m)ExtremeFirst AscentDate: July 3, 1953Climbers: Hermann BuhlNationality: AustrianExpedition: German-Austrian ExpeditionStatistics335Total Ascents83%Success Rate68FatalitiesJune - SeptemberClimbing SeasonGasherbrum I (8,080m)Very HighFirst AscentDate: July 5, 1958Climbers: Pete Schoening, Andy KauffmanNationality: AmericanExpedition: American Karakoram ExpeditionStatistics334Total Ascents92%Success Rate29FatalitiesJune - AugustClimbing SeasonBroad Peak (8,051m)HighFirst AscentDate: June 9, 1957Climbers: Marcus Schmuck, Fritz Wintersteller, Kurt Diemberger, Hermann BuhlNationality: AustrianExpedition: Austrian Broad Peak ExpeditionStatistics404Total Ascents95%Success Rate21FatalitiesJune - AugustClimbing SeasonGasherbrum II (8,034m)ModerateFirst AscentDate: July 7, 1956Climbers: Fritz Moravec, Josef Larch, Hans WillenpartNationality: AustrianExpedition: Austrian Gasherbrum ExpeditionStatistics930Total Ascents97%Success Rate25FatalitiesJune - SeptemberClimbing SeasonFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Explore the rich mountaineering history of Gilgit-Baltistan's peaks",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "peaks": [],
+        "expeditions": []
+      },
+      "section": "Historical Summits",
+      "parentSection": "Mountaineering"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/mountaineering/upcoming-expeditions",
+      "title": "Upcoming Expeditions - Gilgit-Baltistan Mountaineering",
+      "scrapedAt": "2025-08-06T07:19:15.758Z",
+      "content": {
+        "type": "mountaineering",
+        "section": "Upcoming Expeditions",
+        "url": "https://dtsgb.gog.pk/mountaineering/upcoming-expeditions",
+        "headings": [
+          "Upcoming Expeditions",
+          "Peak Distribution - 2024 Season",
+          "Registered Expeditions",
+          "Alpine Ascent International",
+          "Peak & Route",
+          "Team Details",
+          "Schedule",
+          "Team Capacity",
+          "Pakistan Alpine Club",
+          "Peak & Route",
+          "Team Details",
+          "Schedule",
+          "Team Capacity",
+          "European Mountaineering Expedition",
+          "Peak & Route",
+          "Team Details",
+          "Schedule",
+          "Team Capacity",
+          "Himalayan Climbing Company",
+          "Peak & Route",
+          "Team Details",
+          "Schedule",
+          "Team Capacity",
+          "International Women's Expedition",
+          "Peak & Route",
+          "Team Details",
+          "Schedule",
+          "Team Capacity",
+          "Seven Summits Expedition",
+          "Peak & Route",
+          "Team Details",
+          "Schedule",
+          "Team Capacity",
+          "Register Your Expedition",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "2024 Climbing Season - Registered Expeditions",
+          "Expedition ID: EXP-2024-001",
+          "Expedition ID: EXP-2024-002",
+          "Expedition ID: EXP-2024-003",
+          "Expedition ID: EXP-2024-004",
+          "Expedition ID: EXP-2024-005",
+          "Expedition ID: EXP-2024-006",
+          "Planning an expedition to Gilgit-Baltistan's peaks? Register with DTS to ensure proper permits, safety protocols, and support services for your climbing adventure.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterUpcoming Expeditions2024 Climbing Season - Registered ExpeditionsBack to Mountaineering150Total Registered120Confirmed20Pending10Under ReviewPeak Distribution - 2024 SeasonK245Nanga Parbat35Gasherbrum I25Gasherbrum II30Broad Peak15Registered ExpeditionsExport ScheduleAlpine Ascent InternationalExpedition ID: EXP-2024-001ConfirmedPeak & RouteK2 (8,611m)Route: Abruzzi SpurTeam DetailsLeader: John SmithSize: 8/12Nationality: USAAdvanced LevelScheduleStart: 2024-06-15End: 2024-08-30Duration: 76 daysTeam Capacity8 of 12 members4 spots availablePakistan Alpine ClubExpedition ID: EXP-2024-002ConfirmedPeak & RouteNanga Parbat (8,126m)Route: Diamir FaceTeam DetailsLeader: Ahmad HassanSize: 6/10Nationality: PakistanExpert LevelScheduleStart: 2024-06-20End: 2024-08-15Duration: 56 daysTeam Capacity6 of 10 members4 spots availableEuropean Mountaineering ExpeditionExpedition ID: EXP-2024-003Pending DocumentationPermit PendingPeak & RouteGasherbrum I (8,080m)Route: Japanese CouloirTeam DetailsLeader: Hans MuellerSize: 5/8Nationality: GermanyAdvanced LevelScheduleStart: 2024-07-01End: 2024-08-20Duration: 50 daysTeam Capacity5 of 8 members3 spots availableHimalayan Climbing CompanyExpedition ID: EXP-2024-004ConfirmedPeak & RouteBroad Peak (8,051m)Route: West RidgeTeam DetailsLeader: Pemba SherpaSize: 10/12Nationality: NepalExpert LevelScheduleStart: 2024-06-25End: 2024-08-10Duration: 46 daysTeam Capacity10 of 12 members2 spots availableInternational Women's ExpeditionExpedition ID: EXP-2024-005ConfirmedPeak & RouteGasherbrum II (8,034m)Route: Southwest RidgeTeam DetailsLeader: Maria RodriguezSize: 7/10Nationality: MixedAdvanced LevelScheduleStart: 2024-07-10End: 2024-08-25Duration: 46 daysTeam Capacity7 of 10 members3 spots availableSeven Summits ExpeditionExpedition ID: EXP-2024-006Under ReviewPermit PendingPeak & RouteK2 (8,611m)Route: Cesen RouteTeam DetailsLeader: Takeshi YamamotoSize: 4/8Nationality: JapanExpert LevelScheduleStart: 2024-07-15End: 2024-09-05Duration: 52 daysTeam Capacity4 of 8 members4 spots availableRegister Your ExpeditionPlanning an expedition to Gilgit-Baltistan's peaks? Register with DTS to ensure proper permits, safety protocols, and support services for your climbing adventure.Register New ExpeditionView RequirementsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Planning an expedition to Gilgit-Baltistan's peaks? Register with DTS to ensure proper permits, safety protocols, and support services for your climbing adventure.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [
+            "rs4",
+            "rs3",
+            "rs2"
+          ],
+          "tables": []
+        },
+        "peaks": [],
+        "expeditions": []
+      },
+      "section": "Upcoming Expeditions",
+      "parentSection": "Mountaineering"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/mountaineering/successful-climbers",
+      "title": "Successful Climbers - Gilgit-Baltistan Mountaineering",
+      "scrapedAt": "2025-08-06T07:19:18.114Z",
+      "content": {
+        "type": "mountaineering",
+        "section": "Successful Climbers",
+        "url": "https://dtsgb.gog.pk/mountaineering/successful-climbers",
+        "headings": [
+          "Successful Climbers",
+          "Reinhold Messner",
+          "Peaks Climbed",
+          "Key Achievements",
+          "Jerzy Kukuczka",
+          "Peaks Climbed",
+          "Key Achievements",
+          "Ed Viesturs",
+          "Peaks Climbed",
+          "Key Achievements",
+          "Simone Moro",
+          "Peaks Climbed",
+          "Key Achievements",
+          "Nirmal Purja",
+          "Peaks Climbed",
+          "Key Achievements",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Celebrating mountaineers who conquered Gilgit-Baltistan's peaks",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterSuccessful ClimbersCelebrating mountaineers who conquered Gilgit-Baltistan's peaksBack to Mountaineering2,500+Total Successful Climbs1,800+International Climbers700+Local Climbers85+Countries RepresentedSearchInternational Climbers (5)Local Climbers (10)Reinhold MessnerItalyPeaks ClimbedNanga ParbatGasherbrum ITotal Ascents:2Active Period:1970 - 1984Key AchievementsFirst solo ascent of Nanga ParbatWithout supplemental oxygenJerzy KukuczkaPolandPeaks ClimbedK2Broad PeakGasherbrum IGasherbrum IITotal Ascents:4Active Period:1979 - 1987Key AchievementsSecond person to climb all 14 eight-thousandersAlpine style climbing pioneerEd ViestursUSAPeaks ClimbedK2Gasherbrum IGasherbrum IITotal Ascents:3Active Period:1992 - 2005Key AchievementsFirst American to climb all 14 eight-thousandersWithout supplemental oxygenSimone MoroItalyPeaks ClimbedGasherbrum IIBroad PeakTotal Ascents:2Active Period:2005 - 2012Key AchievementsWinter climbing specialistMultiple winter first ascentsNirmal PurjaNepalPeaks ClimbedK2Nanga ParbatGasherbrum IGasherbrum IIBroad PeakTotal Ascents:5Active Period:2019 - 2019Key AchievementsProject Possible - 14 peaks in 6 monthsSpeed climbing record holderFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "First solo ascent of Nanga Parbat",
+              "Without supplemental oxygen"
+            ],
+            "context": "Key Achievements",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Second person to climb all 14 eight-thousanders",
+              "Alpine style climbing pioneer"
+            ],
+            "context": "Key Achievements",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "First American to climb all 14 eight-thousanders",
+              "Without supplemental oxygen"
+            ],
+            "context": "Key Achievements",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Winter climbing specialist",
+              "Multiple winter first ascents"
+            ],
+            "context": "Key Achievements",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "Project Possible - 14 peaks in 6 months",
+              "Speed climbing record holder"
+            ],
+            "context": "Key Achievements",
+            "type": "ul"
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Celebrating mountaineers who conquered Gilgit-Baltistan's peaks",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [
+            "rs700",
+            "rs85"
+          ],
+          "tables": []
+        },
+        "peaks": [],
+        "expeditions": []
+      },
+      "section": "Successful Climbers",
+      "parentSection": "Mountaineering"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/fees#expeditions",
+      "title": "Fees & Charges | Directorate of Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:20.485Z",
+      "content": {
+        "type": "fees",
+        "section": "Expedition Fees",
+        "url": "https://dtsgb.gog.pk/fees#expeditions",
+        "headings": [
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Loading fee information...",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterLoading fee information...Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "feeCategories": [],
+        "feeStructure": []
+      },
+      "section": "Expedition Fees",
+      "parentSection": "Mountaineering"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/adventures",
+      "title": "Mountain Adventures - Discover Peaks & Treks | DTS Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:22.841Z",
+      "content": {
+        "type": "mountaineering",
+        "section": "Mountain Adventures",
+        "url": "https://dtsgb.gog.pk/adventures",
+        "headings": [
+          "Mountain Adventures",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Discover the breathtaking peaks and challenging treks of Gilgit Baltistan. From beginner-friendly trails to extreme expeditions, find your next adventure.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterMountain AdventuresDiscover the breathtaking peaks and challenging treks of Gilgit Baltistan. From beginner-friendly trails to extreme expeditions, find your next adventure.PeaksTreksLoading peaks...Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Discover the breathtaking peaks and challenging treks of Gilgit Baltistan. From beginner-friendly trails to extreme expeditions, find your next adventure.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "peaks": [],
+        "expeditions": [],
+        "comprehensivePeaks": [
+          {
+            "name": "Baintha Brakk West-I",
+            "elevation": "6640 meters",
+            "baseCamp": "Baintha Brakk Base Camp",
+            "firstAscent": "1977",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Caumik Kangri",
+            "elevation": "6754 meters",
+            "baseCamp": "Chumik Kangri Peak Base Camp",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Gharkun Tower",
+            "elevation": "6620 meters",
+            "baseCamp": "Gharkun Tower Base Camp",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Depeak Peak",
+            "elevation": "7150 meters",
+            "baseCamp": "Depeak Peak Base Camp",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Ghent Peak II",
+            "elevation": "7342 meters",
+            "baseCamp": "Ghent Peak Base Camp",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Ghent Peak",
+            "elevation": "7401 meters",
+            "baseCamp": "Ghent Peak Base Camp",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Yazghil dome – N",
+            "elevation": "7110 meters",
+            "baseCamp": "Yazghil Glacier / Hoper Valley",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Yazghil dome – S",
+            "elevation": "7123 meters",
+            "baseCamp": "Yazghil Glacier / Hoper Valley",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Yakshin Garden – I",
+            "elevation": "7400 meters",
+            "baseCamp": "Yazghil Glacier / Hispar Glacier",
+            "firstAscent": "",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "K2",
+            "elevation": "8611 meters",
+            "baseCamp": "K2 Base Camp",
+            "firstAscent": "1954",
+            "difficulty": "Extreme"
+          },
+          {
+            "name": "Nanga Parbat",
+            "elevation": "8126 meters",
+            "baseCamp": "Fairy Meadows",
+            "firstAscent": "1953",
+            "difficulty": "Extreme"
+          },
+          {
+            "name": "Broad Peak",
+            "elevation": "8051 meters",
+            "baseCamp": "Broad Peak Base Camp",
+            "firstAscent": "1957",
+            "difficulty": "Extreme"
+          },
+          {
+            "name": "Gasherbrum I",
+            "elevation": "8080 meters",
+            "baseCamp": "Gasherbrum Base Camp",
+            "firstAscent": "1958",
+            "difficulty": "Extreme"
+          },
+          {
+            "name": "Gasherbrum II",
+            "elevation": "8034 meters",
+            "baseCamp": "Gasherbrum Base Camp",
+            "firstAscent": "1956",
+            "difficulty": "Extreme"
+          }
+        ],
+        "comprehensiveTreks": [
+          {
+            "name": "TRANGO TOWER/ SHIPTON",
+            "elevation": "5000 meters",
+            "route": "Islamabad-Skardu-Shigar-Askoli-Korophon-Paiju-Urdukas-Concordia, K-2 & Broad Peak BC-Gashabrum BC & return via same route to Skardu or cross Gondogoro La Or Vigne Pass, K-7, K-6 BC-Hushe-Skardu or Vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "BALTORO – GONDOGORO- HUSHE",
+            "elevation": "5000 meters",
+            "route": "Islamabad-Skardu-Shigar-Askoli-Korophon-Paiju-Urdukas-Concordia, K-2 & Broad Peak BC-Gashabrum BC & return via same route to Skardu or cross Gondogoro La Or Vigne Pass, K-7, K-6 BC-Hushe-Skardu or Vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "CHILINJI TREK",
+            "elevation": "5291 meters",
+            "route": "Chitral Ishkarwarz, Karambar Pass, Chilinji Pass, Chapursan Valley, Gilgit or vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "DARKOT PASS",
+            "elevation": "4703 meters",
+            "route": "Chitral, Mastuj, Lasht, Darkut Pass, Ishkoman Gilgit or vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "ARKARI TREK",
+            "elevation": "6000 meters",
+            "route": "Chitral, Shugur Biyasan, Babu Camp, Arkari, Garam Chashma, Shahgram, Chitral or vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Zindikharam Pass",
+            "elevation": "4600 meters",
+            "route": "Chitral, Shah Junali, Paur, Gazin, Lasht, Kishmanja, Ishkarwarz to Darkot Pass, or Karambar Pass, Zindikharam Pass, Ishkoman, Gilgit or vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "SHAH – JUNALI – CHILLUI PASS",
+            "elevation": "5291 meters",
+            "route": "Chitral, Rua, Shah Junali, Lasht, Ishkarwarz, Karambar Pass, Chilinji Pass, Chapursan Valley, Gilgit & vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Khot Pass",
+            "elevation": "4890 meters",
+            "route": "Chitral, Turkhow, Khot Pass, Ochall, Ishkarwaz, Karambar Pass, Ishkoman Valley, Gilgit or vice versa",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "ISHKOMAN & DARKUT PASSES",
+            "elevation": "4650 meters",
+            "route": "Gilgit, Ishkoman, Ishkoman Pass, Darkot, Darkot Pass, Baroghil to Mastuj & Back to Gilgit",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Fairy Meadows Trek",
+            "elevation": "3300 meters",
+            "route": "Raikot Bridge - Tato - Fairy Meadows - Beyal Camp - Nanga Parbat Base Camp",
+            "difficulty": "Easy to Moderate"
+          },
+          {
+            "name": "Rush Lake Trek",
+            "elevation": "4694 meters",
+            "route": "Karimabad - Hoper Valley - Rush Lake",
+            "difficulty": "Moderate"
+          },
+          {
+            "name": "Snow Lake Trek",
+            "elevation": "4877 meters",
+            "route": "Askole - Korofon - Biafo Glacier - Snow Lake - Hispar La - Hispar Glacier",
+            "difficulty": "Difficult"
+          },
+          {
+            "name": "Rakaposhi Base Camp Trek",
+            "elevation": "3899 meters",
+            "route": "Minapin - Hapakun - Tagaphari - Rakaposhi Base Camp",
+            "difficulty": "Moderate"
+          }
+        ]
+      },
+      "section": "Mountain Adventures"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/visa",
+      "title": "Pakistan Visa Types - Comprehensive Visa Information",
+      "scrapedAt": "2025-08-06T07:19:25.332Z",
+      "content": {
+        "type": "visa",
+        "section": "Visa Information",
+        "url": "https://dtsgb.gog.pk/visa",
+        "headings": [
+          "Pakistan Visa Types",
+          "Mountaineering Visa",
+          "Application Types",
+          "Mountaineering Expedition",
+          "Required Documents",
+          "Processing Information",
+          "Duration & Validity",
+          "Processing Time",
+          "Fees",
+          "Mountaineering Visa",
+          "Eligibility",
+          "Important Notes",
+          "Ready to Apply?",
+          "How to Apply for Mountaineering Visa?",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Application Process Summary",
+          "Processing Time",
+          "Total Requirements",
+          "Online Application",
+          "Additional Resources",
+          "Contact Support",
+          "Download Forms",
+          "Explore Destinations",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Comprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.",
+          "Pakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.",
+          "For climbing mountains included in the approved mountaineering list.",
+          "List of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.",
+          "Up to 3 Months – Single Entry Visa",
+          "4 Weeks (Working Days)",
+          "Visa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)",
+          "Official Pakistan Visa Documentation",
+          "Applicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.",
+          "In your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climb",
+          "Your Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditions",
+          "Peak royalty fees vary depending on the mountain and season",
+          "If application is Sent Back for Review, processing time will restart from re-submission date",
+          "Application will be cancelled if not resubmitted within 7 days of review request",
+          "Plan your expedition only after acquiring Visa Grant Notice and peak permits",
+          "Mountaineering season restrictions apply (typically May-September)",
+          "Start your visa application process today",
+          "Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.",
+          "Complete all requirements to track your application progress",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "The entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.",
+          "25 requirements remaining",
+          "4 weeks (working days)",
+          "25 items to complete",
+          "Apply through visa.nadra.gov.pk",
+          "Get help with your application",
+          "Application forms and documents",
+          "Discover Pakistans attractions",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterPakistan Visa TypesComprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.Mountaineering VisaTrekking VisaTourist/Visit VisaMountaineering VisaPakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.Application TypesMountaineering ExpeditionFor climbing mountains included in the approved mountaineering list.Up to 60 days10 business daysList of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.Required Documents1.Passport with minimum 6 months validity2. Recent passport-sized photographs3.Mountaineering Application Form4.Sponsor letter/Agreement with DTS-authorized tour operator5.List of expedition members with mountaineering experience6.Medical fitness certificate from certified physician7.Mountaineering insurance coverage certificate8.Previous mountaineering experience certificatesProcessing InformationDuration & ValidityUp to 3 Months – Single Entry VisaProcessing Time4 Weeks (Working Days)FeesVisa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)Mountaineering VisaOfficial Pakistan Visa DocumentationEligibilityApplicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.Important NotesIn your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climbYour Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditionsPeak royalty fees vary depending on the mountain and seasonIf application is Sent Back for Review, processing time will restart from re-submission date Application will be cancelled if not resubmitted within 7 days of review request Plan your expedition only after acquiring Visa Grant Notice and peak permits Mountaineering season restrictions apply (typically May-September)Ready to Apply?Start your visa application process todayApply for VisaHow to Apply for Mountaineering Visa?Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.Overall Progress0%Complete all requirements to track your application progress10% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty fees20% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificates30% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference number40% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logistics1Step0% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty feesStep Progress0%2Step0% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificatesStep Progress0%3Step0% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference numberStep Progress0%4Step0% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logisticsStep Progress0%Application Process SummaryThe entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.Your Progress0%25 requirements remainingProcessing Time4 weeks (working days)Total Requirements25 items to completeOnline ApplicationApply through visa.nadra.gov.pkAdditional Resources📞Contact SupportGet help with your applicationDownload FormsApplication forms and documentsExplore DestinationsDiscover Pakistans attractionsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "visaTypes": [],
+        "applicationProcess": [],
+        "forms": [
+          {
+            "fields": [
+              {
+                "name": "email",
+                "type": "email",
+                "placeholder": "Your Email"
+              },
+              {
+                "name": "message",
+                "type": "text",
+                "placeholder": "Your Message"
+              }
+            ]
+          }
+        ]
+      },
+      "section": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/visa#apply",
+      "title": "Pakistan Visa Types - Comprehensive Visa Information",
+      "scrapedAt": "2025-08-06T07:19:27.738Z",
+      "content": {
+        "type": "visa",
+        "section": "Apply for Tourist Visa",
+        "url": "https://dtsgb.gog.pk/visa#apply",
+        "headings": [
+          "Pakistan Visa Types",
+          "Mountaineering Visa",
+          "Application Types",
+          "Mountaineering Expedition",
+          "Required Documents",
+          "Processing Information",
+          "Duration & Validity",
+          "Processing Time",
+          "Fees",
+          "Mountaineering Visa",
+          "Eligibility",
+          "Important Notes",
+          "Ready to Apply?",
+          "How to Apply for Mountaineering Visa?",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Application Process Summary",
+          "Processing Time",
+          "Total Requirements",
+          "Online Application",
+          "Additional Resources",
+          "Contact Support",
+          "Download Forms",
+          "Explore Destinations",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Comprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.",
+          "Pakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.",
+          "For climbing mountains included in the approved mountaineering list.",
+          "List of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.",
+          "Up to 3 Months – Single Entry Visa",
+          "4 Weeks (Working Days)",
+          "Visa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)",
+          "Official Pakistan Visa Documentation",
+          "Applicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.",
+          "In your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climb",
+          "Your Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditions",
+          "Peak royalty fees vary depending on the mountain and season",
+          "If application is Sent Back for Review, processing time will restart from re-submission date",
+          "Application will be cancelled if not resubmitted within 7 days of review request",
+          "Plan your expedition only after acquiring Visa Grant Notice and peak permits",
+          "Mountaineering season restrictions apply (typically May-September)",
+          "Start your visa application process today",
+          "Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.",
+          "Complete all requirements to track your application progress",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "The entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.",
+          "25 requirements remaining",
+          "4 weeks (working days)",
+          "25 items to complete",
+          "Apply through visa.nadra.gov.pk",
+          "Get help with your application",
+          "Application forms and documents",
+          "Discover Pakistans attractions",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterPakistan Visa TypesComprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.Mountaineering VisaTrekking VisaTourist/Visit VisaMountaineering VisaPakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.Application TypesMountaineering ExpeditionFor climbing mountains included in the approved mountaineering list.Up to 60 days10 business daysList of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.Required Documents1.Passport with minimum 6 months validity2. Recent passport-sized photographs3.Mountaineering Application Form4.Sponsor letter/Agreement with DTS-authorized tour operator5.List of expedition members with mountaineering experience6.Medical fitness certificate from certified physician7.Mountaineering insurance coverage certificate8.Previous mountaineering experience certificatesProcessing InformationDuration & ValidityUp to 3 Months – Single Entry VisaProcessing Time4 Weeks (Working Days)FeesVisa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)Mountaineering VisaOfficial Pakistan Visa DocumentationEligibilityApplicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.Important NotesIn your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climbYour Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditionsPeak royalty fees vary depending on the mountain and seasonIf application is Sent Back for Review, processing time will restart from re-submission date Application will be cancelled if not resubmitted within 7 days of review request Plan your expedition only after acquiring Visa Grant Notice and peak permits Mountaineering season restrictions apply (typically May-September)Ready to Apply?Start your visa application process todayApply for VisaHow to Apply for Mountaineering Visa?Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.Overall Progress0%Complete all requirements to track your application progress10% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty fees20% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificates30% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference number40% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logistics1Step0% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty feesStep Progress0%2Step0% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificatesStep Progress0%3Step0% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference numberStep Progress0%4Step0% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logisticsStep Progress0%Application Process SummaryThe entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.Your Progress0%25 requirements remainingProcessing Time4 weeks (working days)Total Requirements25 items to completeOnline ApplicationApply through visa.nadra.gov.pkAdditional Resources📞Contact SupportGet help with your applicationDownload FormsApplication forms and documentsExplore DestinationsDiscover Pakistans attractionsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "visaTypes": [],
+        "applicationProcess": [],
+        "forms": [
+          {
+            "fields": [
+              {
+                "name": "email",
+                "type": "email",
+                "placeholder": "Your Email"
+              },
+              {
+                "name": "message",
+                "type": "text",
+                "placeholder": "Your Message"
+              }
+            ]
+          }
+        ]
+      },
+      "section": "Apply for Tourist Visa",
+      "parentSection": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/visa#eligibility",
+      "title": "Pakistan Visa Types - Comprehensive Visa Information",
+      "scrapedAt": "2025-08-06T07:19:30.090Z",
+      "content": {
+        "type": "visa",
+        "section": "Tourist Visa Eligibility",
+        "url": "https://dtsgb.gog.pk/visa#eligibility",
+        "headings": [
+          "Pakistan Visa Types",
+          "Mountaineering Visa",
+          "Application Types",
+          "Mountaineering Expedition",
+          "Required Documents",
+          "Processing Information",
+          "Duration & Validity",
+          "Processing Time",
+          "Fees",
+          "Mountaineering Visa",
+          "Eligibility",
+          "Important Notes",
+          "Ready to Apply?",
+          "How to Apply for Mountaineering Visa?",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Application Process Summary",
+          "Processing Time",
+          "Total Requirements",
+          "Online Application",
+          "Additional Resources",
+          "Contact Support",
+          "Download Forms",
+          "Explore Destinations",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Comprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.",
+          "Pakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.",
+          "For climbing mountains included in the approved mountaineering list.",
+          "List of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.",
+          "Up to 3 Months – Single Entry Visa",
+          "4 Weeks (Working Days)",
+          "Visa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)",
+          "Official Pakistan Visa Documentation",
+          "Applicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.",
+          "In your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climb",
+          "Your Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditions",
+          "Peak royalty fees vary depending on the mountain and season",
+          "If application is Sent Back for Review, processing time will restart from re-submission date",
+          "Application will be cancelled if not resubmitted within 7 days of review request",
+          "Plan your expedition only after acquiring Visa Grant Notice and peak permits",
+          "Mountaineering season restrictions apply (typically May-September)",
+          "Start your visa application process today",
+          "Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.",
+          "Complete all requirements to track your application progress",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "The entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.",
+          "25 requirements remaining",
+          "4 weeks (working days)",
+          "25 items to complete",
+          "Apply through visa.nadra.gov.pk",
+          "Get help with your application",
+          "Application forms and documents",
+          "Discover Pakistans attractions",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterPakistan Visa TypesComprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.Mountaineering VisaTrekking VisaTourist/Visit VisaMountaineering VisaPakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.Application TypesMountaineering ExpeditionFor climbing mountains included in the approved mountaineering list.Up to 60 days10 business daysList of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.Required Documents1.Passport with minimum 6 months validity2. Recent passport-sized photographs3.Mountaineering Application Form4.Sponsor letter/Agreement with DTS-authorized tour operator5.List of expedition members with mountaineering experience6.Medical fitness certificate from certified physician7.Mountaineering insurance coverage certificate8.Previous mountaineering experience certificatesProcessing InformationDuration & ValidityUp to 3 Months – Single Entry VisaProcessing Time4 Weeks (Working Days)FeesVisa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)Mountaineering VisaOfficial Pakistan Visa DocumentationEligibilityApplicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.Important NotesIn your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climbYour Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditionsPeak royalty fees vary depending on the mountain and seasonIf application is Sent Back for Review, processing time will restart from re-submission date Application will be cancelled if not resubmitted within 7 days of review request Plan your expedition only after acquiring Visa Grant Notice and peak permits Mountaineering season restrictions apply (typically May-September)Ready to Apply?Start your visa application process todayApply for VisaHow to Apply for Mountaineering Visa?Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.Overall Progress0%Complete all requirements to track your application progress10% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty fees20% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificates30% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference number40% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logistics1Step0% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty feesStep Progress0%2Step0% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificatesStep Progress0%3Step0% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference numberStep Progress0%4Step0% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logisticsStep Progress0%Application Process SummaryThe entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.Your Progress0%25 requirements remainingProcessing Time4 weeks (working days)Total Requirements25 items to completeOnline ApplicationApply through visa.nadra.gov.pkAdditional Resources📞Contact SupportGet help with your applicationDownload FormsApplication forms and documentsExplore DestinationsDiscover Pakistans attractionsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "visaTypes": [],
+        "applicationProcess": [],
+        "forms": [
+          {
+            "fields": [
+              {
+                "name": "email",
+                "type": "email",
+                "placeholder": "Your Email"
+              },
+              {
+                "name": "message",
+                "type": "text",
+                "placeholder": "Your Message"
+              }
+            ]
+          }
+        ]
+      },
+      "section": "Tourist Visa Eligibility",
+      "parentSection": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/visa#documents",
+      "title": "Pakistan Visa Types - Comprehensive Visa Information",
+      "scrapedAt": "2025-08-06T07:19:32.453Z",
+      "content": {
+        "type": "visa",
+        "section": "Documents Required",
+        "url": "https://dtsgb.gog.pk/visa#documents",
+        "headings": [
+          "Pakistan Visa Types",
+          "Mountaineering Visa",
+          "Application Types",
+          "Mountaineering Expedition",
+          "Required Documents",
+          "Processing Information",
+          "Duration & Validity",
+          "Processing Time",
+          "Fees",
+          "Mountaineering Visa",
+          "Eligibility",
+          "Important Notes",
+          "Ready to Apply?",
+          "How to Apply for Mountaineering Visa?",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Contact Authorized Mountaineering Operator",
+          "Prepare Mountaineering Documents",
+          "Submit Mountaineering Visa Application",
+          "Visa Processing & Peak Permits",
+          "Application Process Summary",
+          "Processing Time",
+          "Total Requirements",
+          "Online Application",
+          "Additional Resources",
+          "Contact Support",
+          "Download Forms",
+          "Explore Destinations",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Comprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.",
+          "Pakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.",
+          "For climbing mountains included in the approved mountaineering list.",
+          "List of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.",
+          "Up to 3 Months – Single Entry Visa",
+          "4 Weeks (Working Days)",
+          "Visa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)",
+          "Official Pakistan Visa Documentation",
+          "Applicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.",
+          "In your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climb",
+          "Your Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditions",
+          "Peak royalty fees vary depending on the mountain and season",
+          "If application is Sent Back for Review, processing time will restart from re-submission date",
+          "Application will be cancelled if not resubmitted within 7 days of review request",
+          "Plan your expedition only after acquiring Visa Grant Notice and peak permits",
+          "Mountaineering season restrictions apply (typically May-September)",
+          "Start your visa application process today",
+          "Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.",
+          "Complete all requirements to track your application progress",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "Find a DTS-authorized mountaineering tour operator",
+          "Gather all necessary mountaineering documentation",
+          "Apply through Pakistan Online Visa System",
+          "Wait for visa processing and prepare for expedition",
+          "The entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.",
+          "25 requirements remaining",
+          "4 weeks (working days)",
+          "25 items to complete",
+          "Apply through visa.nadra.gov.pk",
+          "Get help with your application",
+          "Application forms and documents",
+          "Discover Pakistans attractions",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterPakistan Visa TypesComprehensive information about different visa types available for visiting Pakistan, including tourism, mountaineering, and trekking visas.Mountaineering VisaTrekking VisaTourist/Visit VisaMountaineering VisaPakistan is home to some of the world's highest peaks including K2, Nanga Parbat, and Gasherbrum. Our mountaineering visa facilitates climbing expeditions to approved peaks.Application TypesMountaineering ExpeditionFor climbing mountains included in the approved mountaineering list.Up to 60 days10 business daysList of Mountains for which Visa can be applied includes K2, Nanga Parbat, Broad Peak, Gasherbrum I & II, and other approved peaks.Required Documents1.Passport with minimum 6 months validity2. Recent passport-sized photographs3.Mountaineering Application Form4.Sponsor letter/Agreement with DTS-authorized tour operator5.List of expedition members with mountaineering experience6.Medical fitness certificate from certified physician7.Mountaineering insurance coverage certificate8.Previous mountaineering experience certificatesProcessing InformationDuration & ValidityUp to 3 Months – Single Entry VisaProcessing Time4 Weeks (Working Days)FeesVisa Application Fee + Peak Royalty Fee (payable upon arrival in Pakistan)Mountaineering VisaOfficial Pakistan Visa DocumentationEligibilityApplicant must be a national of 192 Countries eligible for online visa under Pakistan Online Visa System and have mountaineering experience.Important NotesIn your application, under Purpose of Visit – Mention the specific mountain from the approved list which you intend to climbYour Sponsor letter/Agreement must be with a tour operator authorized by the DTS for mountaineering expeditionsPeak royalty fees vary depending on the mountain and seasonIf application is Sent Back for Review, processing time will restart from re-submission date Application will be cancelled if not resubmitted within 7 days of review request Plan your expedition only after acquiring Visa Grant Notice and peak permits Mountaineering season restrictions apply (typically May-September)Ready to Apply?Start your visa application process todayApply for VisaHow to Apply for Mountaineering Visa?Follow our comprehensive step-by-step guide to ensure a smooth and successful visa application process. Track your progress with our interactive checklist.Overall Progress0%Complete all requirements to track your application progress10% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty fees20% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificates30% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference number40% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logistics1Step0% CompleteContact Authorized Mountaineering OperatorFind a DTS-authorized mountaineering tour operatorSelect a tour operator specifically authorized by DTS for mountaineering expeditionsDiscuss your mountaineering plans and target peak Verify the mountain is on the approved mountaineering listObtain sponsor letter/agreement from the operatorGet detailed expedition itinerary and cost breakdown including royalty feesStep Progress0%2Step0% CompletePrepare Mountaineering DocumentsGather all necessary mountaineering documentationValid passport with minimum 6 months validity Recent passport-sized photographsCompleted Mountaineering Application FormSponsor letter from DTS-authorized mountaineering operatorList of expedition members with mountaineering credentialsMedical fitness certificate from certified physicianMountaineering insurance coverage certificatePrevious mountaineering experience certificatesStep Progress0%3Step0% CompleteSubmit Mountaineering Visa ApplicationApply through Pakistan Online Visa SystemVisit visa.nadra.gov.pk to submit application Select 'Mountaineering' visa categorySpecify the exact mountain you intend to climb Upload all required mountaineering documents Pay visa application fee onlineSubmit application and note reference numberStep Progress0%4Step0% CompleteVisa Processing & Peak PermitsWait for visa processing and prepare for expeditionProcessing time: 4 weeks (working days) Pay peak royalty fee upon arrival in Pakistan Receive visa grant notice via emailObtain mountaineering permits from relevant authoritiesPlan your expedition only after visa approval and permitsCoordinate with local authorities for expedition logisticsStep Progress0%Application Process SummaryThe entire visa application process typically takes 4-6 weeks from start to finish. Use our interactive checklist to track your progress and ensure you don't miss any requirements.Your Progress0%25 requirements remainingProcessing Time4 weeks (working days)Total Requirements25 items to completeOnline ApplicationApply through visa.nadra.gov.pkAdditional Resources📞Contact SupportGet help with your applicationDownload FormsApplication forms and documentsExplore DestinationsDiscover Pakistans attractionsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        },
+        "visaTypes": [],
+        "applicationProcess": [],
+        "forms": [
+          {
+            "fields": [
+              {
+                "name": "email",
+                "type": "email",
+                "placeholder": "Your Email"
+              },
+              {
+                "name": "message",
+                "type": "text",
+                "placeholder": "Your Message"
+              }
+            ]
+          }
+        ]
+      },
+      "section": "Documents Required",
+      "parentSection": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/contact",
+      "title": "Contact | Directorate Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:34.807Z",
+      "content": {
+        "type": "contact",
+        "section": "Contact Support",
+        "url": "https://dtsgb.gog.pk/contact",
+        "headings": [
+          "Contact Us",
+          "Get In Touch",
+          "Contact Information",
+          "Follow Us",
+          "Regional Offices",
+          "Skardu Office",
+          "Hunza Office",
+          "Astore Office",
+          "Explore the Region",
+          "Frequently Asked Question",
+          "What is the response time for inquiries?",
+          "How can I apply for tourism services?",
+          "Do you offer assistance in multiple languages?",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Get in touch with the Directorate of Tourist Services",
+          "We're here to help with any questions or concerns you may have about tourism in Gilgit Baltistan. Fill out the form below, and our team will get back to you as soon as possible.",
+          "Head Office",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Working Hours",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "Visit our regional offices throughout Gilgit Baltistan for local assistance",
+          "Tourist Information Center (TIC) near Maqpoonsar Zamba Skardu",
+          "+05815-920663",
+          "[email protected]",
+          "Village Murtaza Abad Alongwith KKH",
+          "+05811-920573",
+          "[email protected]",
+          "Near Jamia Masjid, Gorikote Bazaar Astore",
+          "+05817-922068",
+          "[email protected]",
+          "Use the map below to explore the various destinations in Gilgit Baltistan and plan your journey.",
+          "Interactive Map Coming Soon",
+          "We aim to respond to all inquiries within 48 hours during business days. For urgent matters, please call our office directly.",
+          "You can apply for tourism services through our online portal or by visiting any of our offices. The application process and requirements vary depending on the service you're applying for.",
+          "Yes, our staff can assist you in English, Urdu, and several local languages including Shina, Balti, and Burushaski.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterContact UsGet in touch with the Directorate of Tourist ServicesHome>ContactGet In TouchWe're here to help with any questions or concerns you may have about tourism in Gilgit Baltistan. Fill out the form below, and our team will get back to you as soon as possible.Full NameEmailPhone NumberSubjectMessageSend MessageContact InformationHead OfficeBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitPhone05811-920173Email[email protected]Working HoursMon–Fri: 9:00 AM – 5:00 PMFollow UsRegional OfficesVisit our regional offices throughout Gilgit Baltistan for local assistanceSkardu OfficeTourist Information Center (TIC) near Maqpoonsar Zamba Skardu+05815-920663[email protected]Hunza OfficeVillage Murtaza Abad Alongwith KKH+05811-920573[email protected]Astore OfficeNear Jamia Masjid, Gorikote Bazaar Astore+05817-922068[email protected]Explore the RegionUse the map below to explore the various destinations in Gilgit Baltistan and plan your journey.Interactive Map Coming SoonFrequently Asked QuestionWhat is the response time for inquiries?We aim to respond to all inquiries within 48 hours during business days. For urgent matters, please call our office directly.How can I apply for tourism services?You can apply for tourism services through our online portal or by visiting any of our offices. The application process and requirements vary depending on the service you're applying for.Do you offer assistance in multiple languages?Yes, our staff can assist you in English, Urdu, and several local languages including Shina, Balti, and Burushaski.Find UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Contact"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "5811-920173",
+            "5815-920663",
+            "5811-920573",
+            "5817-922068"
+          ],
+          "addresses": [
+            "We're here to help with any questions or concerns you may have about tourism in Gilgit Baltistan. Fill out the form below, and our team will get back to you as soon as possible.",
+            "Head Office",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "Visit our regional offices throughout Gilgit Baltistan for local assistance",
+            "Use the map below to explore the various destinations in Gilgit Baltistan and plan your journey.",
+            "We aim to respond to all inquiries within 48 hours during business days. For urgent matters, please call our office directly.",
+            "You can apply for tourism services through our online portal or by visiting any of our offices. The application process and requirements vary depending on the service you're applying for.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [
+            "rs,"
+          ],
+          "tables": []
+        }
+      },
+      "section": "Contact Support",
+      "parentSection": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/destinations",
+      "title": "Destination | Department Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:37.140Z",
+      "content": {
+        "type": "destinations",
+        "section": "Explore Destinations",
+        "url": "https://dtsgb.gog.pk/destinations",
+        "headings": [
+          "Explore Gilgit Baltistan",
+          "Hunza Valley",
+          "Best Time to Visit",
+          "Altitude",
+          "Famous For",
+          "Nearest Airport",
+          "Travel Tips",
+          "Best Time to Visit",
+          "Getting Around",
+          "Altitude Awareness",
+          "Explore the Region",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Discover the breathtaking destinations of Pakistan's northern paradise",
+          "Hunza Valley is a mountainous valley in the Gilgit-Baltistan region of Pakistan. The valley is situated at an elevation of 2,438 meters and is surrounded by several high mountain peaks, including Rakaposhi, Ultar Sar, and Ladyfinger Peak.",
+          "Known for its breathtaking landscapes, ancient culture, and friendly locals, Hunza Valley is often referred to as \"heaven on earth.\" The valley is home to ancient forts, terraced fields, and traditional villages that offer a glimpse into the rich cultural heritage of the region.",
+          "May to October",
+          "2,438 meters",
+          "Landscapes, Culture, Longevity",
+          "Gilgit Airport (100 km)",
+          "Make the most of your visit to Gilgit Baltistan with these helpful travel tips.travel tips.",
+          "The best time to visit Gilgit Baltistan is from May to October when the weather is pleasant and most roads are open. July and August can be busy, so consider visiting in May, June, September, or October for fewer crowds.",
+          "Public transport is available but can be limited. Consider hiring a local driver or joining a tour for convenience. The Karakoram Highway connects most major destinations, but some remote areas require 4x4 vehicles or hiking.",
+          "Many destinations in Gilgit Baltistan are at high altitudes. Allow time to acclimatize, stay hydrated, and be aware of altitude sickness symptoms. Consider a gradual ascent if planning to visit high-altitude areas.",
+          "Use the map below to explore the various destinations in Gilgit Baltistan and plan your journey.",
+          "Interactive Map Coming Soon",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterExplore Gilgit BaltistanDiscover the breathtaking destinations of Pakistan's northern paradiseHome>DestinationsHunza ValleyHunza Valley is a mountainous valley in the Gilgit-Baltistan region of Pakistan. The valley is situated at an elevation of 2,438 meters and is surrounded by several high mountain peaks, including Rakaposhi, Ultar Sar, and Ladyfinger Peak.Known for its breathtaking landscapes, ancient culture, and friendly locals, Hunza Valley is often referred to as \"heaven on earth.\" The valley is home to ancient forts, terraced fields, and traditional villages that offer a glimpse into the rich cultural heritage of the region.Best Time to VisitMay to OctoberAltitude2,438 metersFamous ForLandscapes, Culture, LongevityNearest AirportGilgit Airport (100 km)Travel TipsMake the most of your visit to Gilgit Baltistan with these helpful travel tips.travel tips.Best Time to VisitThe best time to visit Gilgit Baltistan is from May to October when the weather is pleasant and most roads are open. July and August can be busy, so consider visiting in May, June, September, or October for fewer crowds.\n\nGetting AroundPublic transport is available but can be limited. Consider hiring a local driver or joining a tour for convenience. The Karakoram Highway connects most major destinations, but some remote areas require 4x4 vehicles or hiking.\n\nAltitude AwarenessMany destinations in Gilgit Baltistan are at high altitudes. Allow time to acclimatize, stay hydrated, and be aware of altitude sickness symptoms. Consider a gradual ascent if planning to visit high-altitude areas.\n\nExplore the RegionUse the map below to explore the various destinations in Gilgit Baltistan and plan your journey.Interactive Map Coming SoonFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Destinations"
+            ],
+            "context": "General List",
+            "type": "ul"
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Hunza Valley is a mountainous valley in the Gilgit-Baltistan region of Pakistan. The valley is situated at an elevation of 2,438 meters and is surrounded by several high mountain peaks, including Rakaposhi, Ultar Sar, and Ladyfinger Peak.",
+            "Gilgit Airport (100 km)",
+            "Make the most of your visit to Gilgit Baltistan with these helpful travel tips.travel tips.",
+            "The best time to visit Gilgit Baltistan is from May to October when the weather is pleasant and most roads are open. July and August can be busy, so consider visiting in May, June, September, or October for fewer crowds.",
+            "Many destinations in Gilgit Baltistan are at high altitudes. Allow time to acclimatize, stay hydrated, and be aware of altitude sickness symptoms. Consider a gradual ascent if planning to visit high-altitude areas.",
+            "Use the map below to explore the various destinations in Gilgit Baltistan and plan your journey.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        }
+      },
+      "section": "Explore Destinations",
+      "parentSection": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/regulations",
+      "title": "Regulations | Directorate Tourist Services Gilgit Baltistan",
+      "scrapedAt": "2025-08-06T07:19:39.471Z",
+      "content": {
+        "type": "visa",
+        "section": "Visa Regulations",
+        "url": "https://dtsgb.gog.pk/regulations",
+        "headings": [
+          "Tourism Regulations",
+          "Tourism Regulations",
+          "For Tourists",
+          "Registration Requirements",
+          "Environmental Regulations",
+          "Safety Regulations",
+          "Required Permits",
+          "Trekking Permits",
+          "How to Apply",
+          "Mountaineering Permits",
+          "How to Apply",
+          "Restricted Area Permits",
+          "How to Apply",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Guidelines and regulations for tourism activities in Gilgit Baltistan",
+          "The Directorate of Tourist Services has established regulations to ensure the safety of tourists, protect the natural environment, and maintain the quality of tourism services in Gilgit Baltistan. These regulations apply to tourists, tour operators, accommodation providers, and other tourism stakeholders.",
+          "Tourists visiting Gilgit Baltistan are required to follow these regulations to ensure a safe and enjoyable experience while respecting the local culture and environment.",
+          "Certain activities and areas in Gilgit Baltistan require special permits. Make sure you have the necessary permits before planning your activities.",
+          "Required for trekking in certain areas, especially those close to international borders or in protected natural reserves.",
+          "Apply through the Department of Tourist Services or through a licensed tour operator. Processing time is typically 3-5 working days.",
+          "Required for climbing peaks in Gilgit Baltistan. Different peaks have different permit requirements and fees.",
+          "Apply through the Alpine Club of Pakistan or through a licensed expedition organizer. Processing time is typically 2-4 weeks.",
+          "Required for visiting areas close to international borders or areas with special security considerations.",
+          "Apply through the Ministry of Interior or through a licensed tour operator. Processing time varies and can take up to 4 weeks.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterTourism RegulationsGuidelines and regulations for tourism activities in Gilgit BaltistanHome>RegulationsTourism RegulationsThe Directorate of Tourist Services has established regulations to ensure the safety of tourists, protect the natural environment, and maintain the quality of tourism services in Gilgit Baltistan. These regulations apply to tourists, tour operators, accommodation providers, and other tourism stakeholders.For TouristsFor  OperatorsFor HotelsFor TouristsTourists visiting Gilgit Baltistan are required to follow these regulations to ensure a safe and enjoyable experience while respecting the local culture and environment.\n\nRegistration Requirements• All foreign tourists must register with the local authorities upon arrival• Carry valid identification documents at all times• Obtain necessary permits for restricted areas before visiting• Register with your embassy or consulate if staying for an extended periodEnvironmental Regulations• Do not litter; carry all waste until proper disposal is available• Respect wildlife and maintain a safe distance from animals• Do not collect plants, rocks, or other natural items• Use designated camping sites and follow leave-no-trace principles• Minimize use of plastic and non-biodegradable materialsSafety Regulations• Hire licensed guides for trekking and mountaineering activities• Inform local authorities about your trekking routes and expected return• Carry appropriate safety equipment for adventure activities• Follow all safety instructions provided by guides and authorities• Check weather forecasts before embarking on outdoor activitiesRequired PermitsCertain activities and areas in Gilgit Baltistan require special permits. Make sure you have the necessary permits before planning your activities.\n\nTrekking PermitsRequired for trekking in certain areas, especially those close to international borders or in protected natural reserves.\n\nHow to ApplyApply through the Department of Tourist Services or through a licensed tour operator. Processing time is typically 3-5 working days.Apply For Trekking PermitsMountaineering PermitsRequired for climbing peaks in Gilgit Baltistan. Different peaks have different permit requirements and fees.\n\nHow to ApplyApply through the Alpine Club of Pakistan or through a licensed expedition organizer. Processing time is typically 2-4 weeks.\n\nApply For Mountaineering PermitsRestricted Area PermitsRequired for visiting areas close to international borders or areas with special security considerations.\n\nHow to ApplyApply through the Ministry of Interior or through a licensed tour operator. Processing time varies and can take up to 4 weeks.\n\nApply For Restricted Area PermitsFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [
+          {
+            "items": [
+              "Home>",
+              "Regulations"
+            ],
+            "context": "General List",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "• All foreign tourists must register with the local authorities upon arrival",
+              "• Carry valid identification documents at all times",
+              "• Obtain necessary permits for restricted areas before visiting",
+              "• Register with your embassy or consulate if staying for an extended period"
+            ],
+            "context": "Registration Requirements",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "• Do not litter; carry all waste until proper disposal is available",
+              "• Respect wildlife and maintain a safe distance from animals",
+              "• Do not collect plants, rocks, or other natural items",
+              "• Use designated camping sites and follow leave-no-trace principles",
+              "• Minimize use of plastic and non-biodegradable materials"
+            ],
+            "context": "Environmental Regulations",
+            "type": "ul"
+          },
+          {
+            "items": [
+              "• Hire licensed guides for trekking and mountaineering activities",
+              "• Inform local authorities about your trekking routes and expected return",
+              "• Carry appropriate safety equipment for adventure activities",
+              "• Follow all safety instructions provided by guides and authorities",
+              "• Check weather forecasts before embarking on outdoor activities"
+            ],
+            "context": "Safety Regulations",
+            "type": "ul"
+          }
+        ],
+        "requirements": [
+          {
+            "category": "Registration Requirements",
+            "items": [
+              "• All foreign tourists must register with the local authorities upon arrival",
+              "• Carry valid identification documents at all times",
+              "• Obtain necessary permits for restricted areas before visiting",
+              "• Register with your embassy or consulate if staying for an extended period"
+            ]
+          },
+          {
+            "category": "Safety Regulations",
+            "items": [
+              "• Hire licensed guides for trekking and mountaineering activities",
+              "• Inform local authorities about your trekking routes and expected return",
+              "• Carry appropriate safety equipment for adventure activities",
+              "• Follow all safety instructions provided by guides and authorities",
+              "• Check weather forecasts before embarking on outdoor activities"
+            ]
+          }
+        ],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Guidelines and regulations for tourism activities in Gilgit Baltistan",
+            "The Directorate of Tourist Services has established regulations to ensure the safety of tourists, protect the natural environment, and maintain the quality of tourism services in Gilgit Baltistan. These regulations apply to tourists, tour operators, accommodation providers, and other tourism stakeholders.",
+            "Tourists visiting Gilgit Baltistan are required to follow these regulations to ensure a safe and enjoyable experience while respecting the local culture and environment.",
+            "Certain activities and areas in Gilgit Baltistan require special permits. Make sure you have the necessary permits before planning your activities.",
+            "Required for climbing peaks in Gilgit Baltistan. Different peaks have different permit requirements and fees.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [
+            "rs,"
+          ],
+          "tables": []
+        },
+        "visaTypes": [],
+        "applicationProcess": [],
+        "forms": [
+          {
+            "fields": [
+              {
+                "name": "email",
+                "type": "email",
+                "placeholder": "Your Email"
+              },
+              {
+                "name": "message",
+                "type": "text",
+                "placeholder": "Your Message"
+              }
+            ]
+          }
+        ]
+      },
+      "section": "Visa Regulations",
+      "parentSection": "Visa Information"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/news",
+      "title": "News",
+      "scrapedAt": "2025-08-06T07:19:41.803Z",
+      "content": {
+        "type": "news",
+        "section": "News & Advisories",
+        "url": "https://dtsgb.gog.pk/news",
+        "headings": [
+          "Important Advisory for Mountaineers and Tour Operators: Insurance Protocols and Permit Regulations in Gilgit-Baltistan",
+          "The Shandur Polo Festival 2025 concluded with a thrilling final match as Team Chitral edged out Gilgit-Baltistan",
+          "Chief Secretary GB Hosts Ceremony to Honour Pakistan’s High-Altitude Heroes - Sirbaz Khan, Wajidullah Nagri, and Sajid Ali Sadpara",
+          "Shandur Polo Festival 2025 Scheduled for June 20-22 at world's Highest Polo Ground",
+          "Babusar Top Reopens for Tourists and Traffic After Six-Month Seasonal Closure",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "July 25, 2025",
+          "June 26, 2025",
+          "June 27, 2025",
+          "June 4, 2025",
+          "June 4, 2025",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterHomeNews July 25, 2025Important Advisory for Mountaineers and Tour Operators: Insurance Protocols and Permit Regulations in Gilgit-Baltistan   June 26, 2025The Shandur Polo Festival 2025 concluded with a thrilling final match as Team Chitral edged out Gilgit-Baltistan June 27, 2025Chief Secretary GB Hosts Ceremony to Honour Pakistan’s High-Altitude Heroes - Sirbaz Khan, Wajidullah Nagri, and Sajid Ali Sadpara June 4, 2025Shandur Polo Festival 2025 Scheduled for June 20-22 at world's Highest Polo Ground June 4, 2025Babusar Top Reopens for Tourists and Traffic After Six-Month Seasonal ClosureFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        }
+      },
+      "section": "News & Advisories"
+    },
+    {
+      "url": "https://dtsgb.gog.pk/events",
+      "title": "Events & Travel Trade",
+      "scrapedAt": "2025-08-06T07:19:44.087Z",
+      "content": {
+        "type": "events",
+        "section": "Events & Travel Trade",
+        "url": "https://dtsgb.gog.pk/events",
+        "headings": [
+          "Events",
+          "Travel Trade Upcoming Events",
+          "Mountain Tourism Summit, France 2025",
+          "Arabian Travel Market, UAE 2025",
+          "Pakistan Travel Mart, Karachi 2025",
+          "Find Us",
+          "Follow Us",
+          "Contact Us",
+          "Important Links",
+          "Get In Touch"
+        ],
+        "paragraphs": [
+          "Discover upcoming travel and tourism events",
+          "Showing 1 - 3 of 3 Events",
+          "Save the date: From 8-10 May, join mountain tourism experts in Chamonix  Summit to share sustainable tourism practices.",
+          "save the date: Showcase Pakistan's  northern beauty to Middle Eastern markets and establish regional partnerships.",
+          "Save the date: Meet industry leaders and showcase Gilgit Baltistan's tourism potential at Pakistan's premier travel trade exhibition. tourism potential at Pakistan's premier travel trade exhibition.",
+          "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+          "05811-920173",
+          "[email protected]",
+          "Mon–Fri: 9:00 AM – 5:00 PM",
+          "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+        ],
+        "allText": "HomeAboutServicesRegulationsFeesContactLoginRegisterHomeAboutServicesRegulationsFeesContactLoginRegisterEventsDiscover upcoming travel and tourism eventsEvent TypeCategoryShowing 1 - 3 of 3 EventsTravel Trade Upcoming Events18JUNMountain Tourism Summit, France 2025summitChamonix Convention Centre, FranceExpected attendeesSave the date: From 8-10 May, join mountain tourism experts in Chamonix  Summit to share sustainable tourism practices.  summit24JUNArabian Travel Market, UAE 2025regionalDubai World Trade Centre, UAEExpected attendees save the date: Showcase Pakistan's  northern beauty to Middle Eastern markets and establish regional partnerships.regional19JUNPakistan Travel Mart, Karachi 2025domesticKarachi Expo Centre, PakistanExpected attendeesSave the date: Meet industry leaders and showcase Gilgit Baltistan's tourism potential at Pakistan's premier travel trade exhibition. tourism potential at Pakistan's premier travel trade exhibition.domesticFind UsBlock A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, GilgitFollow UsContact Us05811-920173[email protected]Mon–Fri: 9:00 AM – 5:00 PMImportant LinksApply for VisaPakistan International AirlinesNATCO Gilgit-BaltistanGilgit-Baltistan Rescue 1122Gilgit-Baltistan PoliceTourist Guide Map (GB)Terms and Conditions Get In TouchSend Message© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved.",
+        "structuredLists": [],
+        "contactInfo": {
+          "phones": [
+            "5811-920173"
+          ],
+          "addresses": [
+            "Save the date: Meet industry leaders and showcase Gilgit Baltistan's tourism potential at Pakistan's premier travel trade exhibition. tourism potential at Pakistan's premier travel trade exhibition.",
+            "Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit",
+            "© 2024 Directorate of Tourist Services, Gilgit Baltistan. All Rights Reserved."
+          ]
+        },
+        "feeInformation": {
+          "amounts": [],
+          "tables": []
+        }
+      },
+      "section": "Events & Travel Trade"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Login & Registration",
+      "url": "https://app.dtsgb.gog.pk/auth/login",
+      "description": "Login portal for DTS GB users.",
+      "children": [
+        {
+          "title": "Create Account",
+          "url": "https://app.dtsgb.gog.pk/auth/register"
+        },
+        {
+          "title": "Register for Licenses",
+          "url": "https://app.dtsgb.gog.pk/app"
+        }
+      ]
+    },
+    {
+      "title": "Tourism Services",
+      "url": "https://dtsgb.gog.pk/services",
+      "children": [
+        {
+          "title": "Licensing",
+          "url": "https://dtsgb.gog.pk/services/licensing",
+          "children": [
+            {
+              "title": "Tour Operator License",
+              "url": "https://app.dtsgb.gog.pk/app"
+            },
+            {
+              "title": "Hotel/Camping License",
+              "url": "https://app.dtsgb.gog.pk/app"
+            },
+            {
+              "title": "Tour Guide License",
+              "url": "https://app.dtsgb.gog.pk/app"
+            }
+          ]
+        },
+        {
+          "title": "Legislations",
+          "url": "https://dtsgb.gog.pk/services/legislations"
+        },
+        {
+          "title": "Grading",
+          "url": "https://dtsgb.gog.pk/services/grading"
+        },
+        {
+          "title": "Service Providers",
+          "url": "https://dtsgb.gog.pk/services/service-providers"
+        },
+        {
+          "title": "Downloads",
+          "url": "https://dtsgb.gog.pk/services/downloads"
+        }
+      ]
+    },
+    {
+      "title": "Fees & Expeditions",
+      "url": "https://dtsgb.gog.pk/fees",
+      "children": [
+        {
+          "title": "General Fees",
+          "url": "https://dtsgb.gog.pk/fees#"
+        },
+        {
+          "title": "Expedition Fees",
+          "url": "https://dtsgb.gog.pk/fees#expeditions"
+        }
+      ]
+    },
+    {
+      "title": "Mountaineering",
+      "url": "https://dtsgb.gog.pk/mountaineering",
+      "children": [
+        {
+          "title": "Historical Summits",
+          "url": "https://dtsgb.gog.pk/mountaineering/historical-summits"
+        },
+        {
+          "title": "Upcoming Expeditions",
+          "url": "https://dtsgb.gog.pk/mountaineering/upcoming-expeditions"
+        },
+        {
+          "title": "Successful Climbers",
+          "url": "https://dtsgb.gog.pk/mountaineering/successful-climbers"
+        },
+        {
+          "title": "Expedition Fees",
+          "url": "https://dtsgb.gog.pk/fees#expeditions"
+        }
+      ]
+    },
+    {
+      "title": "Mountain Adventures",
+      "url": "https://dtsgb.gog.pk/adventures"
+    },
+    {
+      "title": "Visa Information",
+      "url": "https://dtsgb.gog.pk/visa",
+      "children": [
+        {
+          "title": "Apply for Tourist Visa",
+          "url": "https://dtsgb.gog.pk/visa#apply"
+        },
+        {
+          "title": "Tourist Visa Eligibility",
+          "url": "https://dtsgb.gog.pk/visa#eligibility"
+        },
+        {
+          "title": "Documents Required",
+          "url": "https://dtsgb.gog.pk/visa#documents"
+        },
+        {
+          "title": "Contact Support",
+          "url": "https://dtsgb.gog.pk/contact"
+        },
+        {
+          "title": "Explore Destinations",
+          "url": "https://dtsgb.gog.pk/destinations"
+        },
+        {
+          "title": "Visa Regulations",
+          "url": "https://dtsgb.gog.pk/regulations"
+        }
+      ]
+    },
+    {
+      "title": "News & Advisories",
+      "url": "https://dtsgb.gog.pk/news",
+      "dynamic": true,
+      "description": "Latest news and advisories related to tourism and expeditions in Gilgit-Baltistan. Content is updated regularly.",
+      "fetchFrom": "https://dtsgb.gog.pk/news",
+      "children": []
+    },
+    {
+      "title": "Events & Travel Trade",
+      "url": "https://dtsgb.gog.pk/events",
+      "dynamic": true,
+      "description": "Upcoming tourism and travel trade events related to Gilgit-Baltistan.",
+      "fetchFrom": "https://dtsgb.gog.pk/events",
+      "children": []
     }
   ],
   "faq": [
     {
       "question": "What is DTS?",
-      "answer": "DTS (Directorate of Tourism Services) is the official government department for tourism in Gilgit-Baltistan, Pakistan."
+      "answer": "DTS (Directorate of Tourism Services) is the official government department for tourism in Gilgit-Baltistan, Pakistan. It manages tourism services, licensing, permits, and promotes the region's natural beauty."
     },
     {
-      "question": "How do I login to DTS system?",
-      "answer": "Visit https://app.dtsgb.gog.pk/auth/login, enter your credentials, and click Sign In. Only authorized personnel can access the system."
+      "question": "How do I apply for tourism licenses in Gilgit-Baltistan?",
+      "answer": "You can apply for various tourism licenses including Tour Operator License, Hotel/Camping License, and Tour Guide License through the DTS online portal at https://app.dtsgb.gog.pk/app after creating an account."
     },
     {
-      "question": "Can I create a DTS account?",
-      "answer": "Account creation is restricted to authorized government personnel and registered tourism operators. Contact DTS office with required documents."
+      "question": "What are the fees for expeditions and tourism services?",
+      "answer": "DTS has different fee structures for general tourism services and expedition fees. Detailed fee information is available on the official website under the Fees & Expeditions section."
     },
     {
-      "question": "What tourism services does DTS provide?",
-      "answer": "DTS provides tourist information, travel permits, safety coordination, infrastructure development, and adventure tourism facilitation."
+      "question": "How can I get a tourist visa for Gilgit-Baltistan?",
+      "answer": "Tourist visa information, eligibility criteria, required documents, and application process are available on the DTS website. You can apply online and check all requirements before visiting."
+    },
+    {
+      "question": "What mountaineering opportunities are available in Gilgit-Baltistan?",
+      "answer": "Gilgit-Baltistan offers world-class mountaineering opportunities including K2, Nanga Parbat, and many other peaks. DTS provides information on historical summits, upcoming expeditions, and successful climbers."
+    },
+    {
+      "question": "Where can I find the latest news and advisories for tourism in Gilgit-Baltistan?",
+      "answer": "The latest tourism news, advisories, and safety updates are regularly published on the DTS website's News & Advisories section. This includes important travel information and expedition updates."
+    },
+    {
+      "question": "What adventure activities are available in Gilgit-Baltistan?",
+      "answer": "The region offers various mountain adventures including trekking, mountaineering, rock climbing, river rafting, and cultural tours. Information about these activities is available through DTS services."
+    },
+    {
+      "question": "How can I contact DTS for support?",
+      "answer": "You can contact DTS through multiple channels: Phone: +92-5811-920001, Email: info@dtsgb.gog.pk, Helpline: 1422, or visit their office at Directorate of Tourism Services, Gilgit-Baltistan."
+    },
+    {
+      "question": "What are the popular destinations in Gilgit-Baltistan?",
+      "answer": "Popular destinations include Skardu (gateway to K2), Hunza Valley, Fairy Meadows (Nanga Parbat base camp), Deosai National Park, Khunjerab Pass, and many other stunning locations with rich cultural heritage."
+    },
+    {
+      "question": "What regulations should tourists be aware of?",
+      "answer": "Tourists should be aware of local regulations regarding permits, protected areas, cultural sensitivities, and safety guidelines. Complete regulation information is available through DTS official channels."
     }
   ]
 }

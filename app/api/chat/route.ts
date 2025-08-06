@@ -1,5 +1,6 @@
 import { generateText } from "ai"
 import { openai } from "@ai-sdk/openai"
+import { getKnowledgeBaseFromJSON } from "../../../lib/knowledge-base"
 
 export const maxDuration = 30
 
@@ -15,78 +16,82 @@ export async function POST(req: Request) {
       throw new Error("OpenAI API key is not configured")
     }
 
-    // Use a comprehensive fallback knowledge base since the JSON loading might be failing
-    const knowledgeBase = `
-DTS GILGIT-BALTISTAN COMPREHENSIVE KNOWLEDGE BASE
+    // Load comprehensive knowledge base from JSON with fallback
+    let knowledgeBase: string
+    try {
+      console.log("Loading comprehensive knowledge base from JSON...")
+      knowledgeBase = await getKnowledgeBaseFromJSON()
+      console.log("Successfully loaded knowledge base")
+    } catch (error) {
+      console.error("Failed to load knowledge base from JSON, using fallback:", error)
+      knowledgeBase = `
+DTS GILGIT-BALTISTAN FALLBACK KNOWLEDGE BASE
 
-WHAT IS DTS?
-DTS (Directorate of Tourism Services) Gilgit-Baltistan is the official government department responsible for promoting and managing tourism services in the Gilgit-Baltistan region of Pakistan. We provide various services to tourists, travel operators, and local businesses.
+TOURISM BUSINESS LICENSING:
+For tourism business licenses in Gilgit-Baltistan, you need to follow these steps:
 
-MAIN SERVICES PROVIDED BY DTS:
-1. Tourist Information and Guidance
-2. Travel Permits and Documentation
-3. Tourism Infrastructure Development
-4. Tourist Safety and Security Coordination
-5. Promotion of Local Tourism Destinations
-6. Support for Tourism Businesses
-7. Cultural Heritage Preservation
-8. Adventure Tourism Facilitation
+REQUIREMENTS:
+• Valid CNIC or Passport
+• Business registration documents
+• Location NOC from local authorities
+• Fire safety certificate
+• Environmental clearance (if applicable)
+• Insurance coverage documents
 
-POPULAR DESTINATIONS IN GILGIT-BALTISTAN:
-- Skardu and Baltoro Glacier
-- Hunza Valley and Karimabad
-- Fairy Meadows and Nanga Parbat Base Camp
-- Deosai National Park
-- Khunjerab Pass (Pak-China Border)
-- Shigar Valley and Khaplu
-- Gojal Valley and Attabad Lake
+LICENSING PROCESS:
+1. Submit online application with required documents
+2. Pay applicable fees through designated bank
+3. Site inspection by DTS officials
+4. Review and verification process
+5. License issuance upon approval
 
-LOGIN AND ACCOUNT INFORMATION:
-- Official Login Portal: https://app.dtsgb.gog.pk/auth/login
-- Main Website: https://dtsgb.gog.pk/
-- Only authorized personnel and registered tourism operators can create accounts
-- For account creation, contact DTS office with proper documentation
+LICENSE TYPES:
+• Tour Operator License
+• Hotel/Camping License
+• Tour Guide License
+• Transport License
 
-COMMON LOGIN ISSUES AND SOLUTIONS:
-1. Forgot Password:
-   - Use the "Forgot Password" link on the login page
-   - Contact DTS IT support: support@dtsgb.gog.pk
-   - Visit DTS office with proper identification
+CONTACT FOR LICENSING:
+Phone: +92-5811-920001
+Email: info@dtsgb.gog.pk
+Address: Directorate of Tourist Services, Block A, 1st Floor, Gilgit-Baltistan Secretariat Building Jutial, Gilgit
+Website: https://dtsgb.gog.pk/services/licensing
 
-2. Account Access Problems:
-   - Verify you're using the correct login URL: https://app.dtsgb.gog.pk/auth/login
-   - Check if your account is active and approved
-   - Contact system administrator for account verification
+GENERAL DTS INFORMATION:
+DTS (Directorate of Tourism Services) is the official government department for tourism in Gilgit-Baltistan, responsible for licensing, permits, and tourism regulation.
 
-3. Browser and Technical Issues:
-   - Clear browser cache and cookies
-   - Try different browsers (Chrome, Firefox, Safari)
-   - Disable browser extensions that might interfere
-   - Ensure JavaScript is enabled
+MAIN SERVICES:
+• Tourism Business Licensing
+• Travel Permits and Documentation
+• Tourist Information and Guidance
+• Tourism Infrastructure Development
+• Adventure Tourism Facilitation
 
-CONTACT INFORMATION:
-- Main Office: Directorate of Tourism Services, Gilgit-Baltistan
-- Phone: +92-5811-920001
-- Email: info@dtsgb.gog.pk
-- Emergency Tourist Helpline: 1422
-- Website: https://dtsgb.gog.pk/
-- Login Portal: https://app.dtsgb.gog.pk/auth/login
+POPULAR DESTINATIONS:
+• Skardu - Gateway to K2 and Baltoro Glacier
+• Hunza Valley - Beautiful valley with stunning views
+• Fairy Meadows - Base camp for Nanga Parbat
+• Deosai National Park - High altitude plateau
 `
+    }
 
-    console.log("Using comprehensive knowledge base")
+    console.log("Using knowledge base for responses")
 
     const systemPrompt = `You are the Tourism Services Assistant (TSA) for DTS Gilgit-Baltistan. 
 
 ## Key Guidelines:
-- Keep responses CONCISE (maximum 2-3 sentences)
-- Assume users are already on the DTS login page unless stated otherwise
-- Focus on immediate actionable steps
-- Be helpful but brief
+- Provide COMPREHENSIVE and DETAILED responses when users ask about specific processes or services
+- For licensing questions, provide complete step-by-step instructions with requirements
+- For fees, visa, mountaineering, and other specific topics, give thorough information
+- For NEWS and EVENTS questions: Always provide the actual content from the knowledge base, not just links
+- Be helpful and informative - users need complete information to take action
 
 ## Response Style:
 - For login help: Give direct steps assuming they're on the login page
 - For password issues: Quick troubleshooting then direct to support
 - For account creation: Brief explanation that only authorized personnel can create accounts
+- For news/events: Share the actual headlines, dates, and details from the knowledge base
+- When providing links, ensure proper formatting without trailing characters
 - Always end with a simple follow-up offer
 
 Example responses:
@@ -162,12 +167,22 @@ ${knowledgeBase}
 For "What is DTS?": Explain that DTS is the Directorate of Tourism Services for Gilgit-Baltistan, responsible for tourism promotion and management.
 For "How do I login?": Provide step-by-step login instructions using the official portal.
 For "Tell me about tourism": Mention popular destinations like Skardu, Hunza Valley, Fairy Meadows, etc.
+For "Latest news": Share actual news headlines with dates from the knowledge base, like recent advisories, polo festivals, mountaineering achievements, etc.
+For "Upcoming events": List specific events like tourism summits, travel marts with dates and descriptions.
+
+⚙️ **Special Instructions for News & Events:**
+- ALWAYS provide actual content from the knowledge base, not just links
+- Include headlines, dates, and key details
+- For events: mention specific dates, locations, and purposes
+- Only provide links as additional resources, never as the primary response
+- Format links properly: [Link Text](URL) without trailing spaces or punctuation
 
 ⚙️ **Answering Behavior:**
 When possible, phrase responses like:
 - "According to DTS…"
 - "The official guidance is…"
-- "You can find this on the login portal at…"
+- "Recent news from DTS includes..."
+- "Upcoming events in the tourism sector include..."
 
 Remember: You are TSA - a trusted, professional, and helpful digital guide for DTS Gilgit-Baltistan users. Always provide comprehensive, helpful responses based on the knowledge base.`
 
@@ -177,8 +192,8 @@ Remember: You are TSA - a trusted, professional, and helpful digital guide for D
         { role: "system", content: systemPrompt },
         { role: "user", content: message },
       ],
-      temperature: 0.4,
-      maxTokens: 200,
+      temperature: 0.3,
+      maxTokens: 1000,
     })
 
     console.log("Generated response:", result.text)

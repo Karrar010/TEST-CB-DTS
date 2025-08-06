@@ -1,4 +1,4 @@
-import { updateKnowledgeBase, scrapeAllDTSWebsites, loadKnowledgeBase } from "../lib/scraper.js"
+import { updateKnowledgeBase, loadKnowledgeBase } from "../lib/scraper"
 
 async function runComprehensiveScraping() {
   console.log("🚀 Starting comprehensive DTS website scraping...")
@@ -26,7 +26,7 @@ async function runComprehensiveScraping() {
         const type = source.content.type || "unknown"
         acc[type] = (acc[type] || 0) + 1
         return acc
-      }, {})
+      }, {} as Record<string, number>)
 
       Object.entries(contentTypes).forEach(([type, count]) => {
         console.log(`  • ${type}: ${count} page(s)`)
